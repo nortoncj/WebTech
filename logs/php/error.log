@@ -1,0 +1,371 @@
+[07-Jul-2024 20:29:30 UTC] PHP Warning:  The magic method OCDI\OneClickDemoImport::__wakeup() must have public visibility in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 128
+[07-Jul-2024 20:53:32 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/leverage/inc/import-demos.php on line 117
+[07-Jul-2024 20:53:32 UTC] PHP Warning:  Attempt to read property "term_id" on bool in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/leverage/inc/import-demos.php on line 124
+[07-Jul-2024 20:53:33 UTC] PHP Warning:  Undefined variable $response in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 419
+[07-Jul-2024 20:53:33 UTC] PHP Warning:  Undefined array key "message" in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 419
+[07-Jul-2024 20:54:41 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/leverage/inc/import-demos.php on line 117
+[07-Jul-2024 20:54:41 UTC] PHP Warning:  Attempt to read property "term_id" on bool in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/leverage/inc/import-demos.php on line 124
+[07-Jul-2024 20:54:41 UTC] PHP Warning:  Undefined variable $response in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 419
+[07-Jul-2024 20:54:41 UTC] PHP Warning:  Undefined array key "message" in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 419
+[07-Jul-2024 20:55:20 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/leverage/inc/import-demos.php on line 117
+[07-Jul-2024 20:55:20 UTC] PHP Warning:  Attempt to read property "term_id" on bool in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/leverage/inc/import-demos.php on line 124
+[07-Jul-2024 20:55:20 UTC] PHP Warning:  Undefined variable $response in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 419
+[07-Jul-2024 20:55:20 UTC] PHP Warning:  Undefined array key "message" in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/one-click-demo-import/inc/OneClickDemoImport.php on line 419
+[07-Jul-2024 22:01:01 UTC] PHP Warning:  Undefined array key 2 in /Users/cj/Local Sites/hightable/app/public/wp-admin/includes/menu.php on line 181
+[07-Jul-2024 22:01:01 UTC] PHP Warning:  Undefined array key 2 in /Users/cj/Local Sites/hightable/app/public/wp-admin/menu-header.php on line 155
+[07-Jul-2024 22:01:01 UTC] PHP Warning:  Undefined array key 2 in /Users/cj/Local Sites/hightable/app/public/wp-admin/menu-header.php on line 156
+[07-Jul-2024 22:01:01 UTC] PHP Warning:  Undefined array key 2 in /Users/cj/Local Sites/hightable/app/public/wp-admin/menu-header.php on line 164
+[07-Jul-2024 22:01:01 UTC] PHP Warning:  Undefined array key 2 in /Users/cj/Local Sites/hightable/app/public/wp-admin/menu-header.php on line 171
+[07-Jul-2024 22:01:01 UTC] PHP Warning:  Undefined array key 1 in /Users/cj/Local Sites/hightable/app/public/wp-admin/menu-header.php on line 202
+[08-Jul-2024 00:39:51 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[08-Jul-2024 00:42:17 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[08-Jul-2024 00:43:33 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[08-Jul-2024 00:48:59 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[08-Jul-2024 00:51:09 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[08-Jul-2024 01:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "FusionBuilder" not found in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/fusion-white-label-branding/inc/fusion-branding-admin.php:595
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/fusion-white-label-branding/inc/fusion-branding-admin.php(396): Fusion_White_Label_Branding_Admin->allowed_post_types()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php(326): Fusion_White_Label_Branding_Admin->update_builder_meta_box('page')
+#2 /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/cj/Local Sites/hightable/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/cj/Local Sites/hightable/app/public/wp-admin/includes/meta-boxes.php(1714): do_action('add_meta_boxes', 'page', Object(WP_Post))
+#5 /Users/cj/Local Sites/hightable/app/public/wp-admin/edit-form-blocks.php(276): register_and_do_post_meta_boxes(Object(WP_Post))
+#6 /Users/cj/Local Sites/hightable/app/public/wp-admin/post-new.php(72): require('/Users/cj/Local...')
+#7 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/fusion-white-label-branding/inc/fusion-branding-admin.php on line 595
+[08-Jul-2024 01:14:56 UTC] PHP Fatal error:  Uncaught Error: Class "FusionBuilder" not found in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/fusion-white-label-branding/inc/fusion-branding-admin.php:595
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/fusion-white-label-branding/inc/fusion-branding-admin.php(396): Fusion_White_Label_Branding_Admin->allowed_post_types()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php(326): Fusion_White_Label_Branding_Admin->update_builder_meta_box('page')
+#2 /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/cj/Local Sites/hightable/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/cj/Local Sites/hightable/app/public/wp-admin/includes/meta-boxes.php(1714): do_action('add_meta_boxes', 'page', Object(WP_Post))
+#5 /Users/cj/Local Sites/hightable/app/public/wp-admin/edit-form-blocks.php(276): register_and_do_post_meta_boxes(Object(WP_Post))
+#6 /Users/cj/Local Sites/hightable/app/public/wp-admin/post-new.php(72): require('/Users/cj/Local...')
+#7 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/fusion-white-label-branding/inc/fusion-branding-admin.php on line 595
+[08-Jul-2024 01:30:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-list-util.php on line 168
+[08-Jul-2024 01:30:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-list-util.php on line 168
+[08-Jul-2024 01:30:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-list-util.php on line 168
+[08-Jul-2024 01:30:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-list-util.php on line 168
+[08-Jul-2024 01:43:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_footer_end() in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/footer.php:22
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/template.php(745): load_template('/Users/cj/Local...', true, Array)
+#2 /Users/cj/Local Sites/hightable/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php(301): get_footer()
+#4 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include('/Users/cj/Local...')
+#5 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#6 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#7 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/footer.php on line 22
+[08-Jul-2024 01:43:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_footer_end() in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/footer.php:22
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/template.php(745): load_template('/Users/cj/Local...', true, Array)
+#2 /Users/cj/Local Sites/hightable/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php(301): get_footer()
+#4 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include('/Users/cj/Local...')
+#5 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#6 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#7 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/footer.php on line 22
+[08-Jul-2024 02:25:29 UTC] PHP Warning:  Array to string conversion in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 41
+[08-Jul-2024 02:25:29 UTC] PHP Warning:  Array to string conversion in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 41
+[08-Jul-2024 02:25:29 UTC] PHP Warning:  Array to string conversion in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 41
+[08-Jul-2024 03:05:25 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:163
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 163
+[08-Jul-2024 15:04:08 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "project_url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:90
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 90
+[08-Jul-2024 15:25:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:116
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 116
+[08-Jul-2024 15:26:08 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:116
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 116
+[08-Jul-2024 15:26:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:116
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 116
+[08-Jul-2024 15:27:01 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:116
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 116
+[08-Jul-2024 15:27:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:116
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 116
+[08-Jul-2024 15:28:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:117
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 117
+[08-Jul-2024 15:28:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:117
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 117
+[08-Jul-2024 15:29:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:118
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 118
+[08-Jul-2024 17:25:47 UTC] PHP Warning:  Undefined variable $project_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 29
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $project_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 29
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $github_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 30
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $description in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 33
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $tech_icon1 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 40
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $tech_icon2 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 43
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $tech_icon3 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 46
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $tech_icon4 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 49
+[08-Jul-2024 17:29:42 UTC] PHP Warning:  Undefined variable $youtube_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 55
+[08-Jul-2024 17:31:00 UTC] PHP Warning:  Undefined variable $tech_icon1 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 48
+[08-Jul-2024 17:31:00 UTC] PHP Warning:  Undefined variable $tech_icon2 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 51
+[08-Jul-2024 17:31:00 UTC] PHP Warning:  Undefined variable $tech_icon3 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 54
+[08-Jul-2024 17:31:00 UTC] PHP Warning:  Undefined variable $tech_icon4 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 57
+[08-Jul-2024 17:32:18 UTC] PHP Warning:  Undefined variable $tech_icon1 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 48
+[08-Jul-2024 17:32:18 UTC] PHP Warning:  Undefined variable $tech_icon2 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 51
+[08-Jul-2024 17:32:18 UTC] PHP Warning:  Undefined variable $tech_icon3 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 54
+[08-Jul-2024 17:32:18 UTC] PHP Warning:  Undefined variable $tech_icon4 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single-project.php on line 57
+[09-Jul-2024 04:34:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:207
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 207
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $image_properties in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 15
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 15
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $project_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 20
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $github_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 21
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $description in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 24
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $tech_icon_1 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 31
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $tech_icon_2 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 34
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $tech_icon_3 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 37
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $tech_icon_4 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 40
+[09-Jul-2024 15:32:41 UTC] PHP Warning:  Undefined variable $youtube_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 46
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $image_properties in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 16
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 16
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $project_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 21
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $github_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 22
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $description in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 25
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $tech_icon_1 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 32
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $tech_icon_2 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 35
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $tech_icon_3 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 38
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $tech_icon_4 in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 41
+[09-Jul-2024 15:34:16 UTC] PHP Warning:  Undefined variable $youtube_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 47
+[09-Jul-2024 15:38:20 UTC] PHP Warning:  Undefined variable $image_properties in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 17
+[09-Jul-2024 15:38:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 17
+[09-Jul-2024 15:38:20 UTC] PHP Warning:  Undefined variable $project_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 22
+[09-Jul-2024 15:38:20 UTC] PHP Warning:  Undefined variable $github_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 23
+[09-Jul-2024 15:39:21 UTC] PHP Warning:  Undefined variable $project_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 21
+[09-Jul-2024 15:39:21 UTC] PHP Warning:  Undefined variable $github_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/single.php on line 22
+[09-Jul-2024 18:43:31 UTC] PHP Warning:  Undefined array key "postId" in /Users/cj/Local Sites/hightable/app/public/wp-includes/blocks/comments.php on line 27
+[10-Jul-2024 23:05:24 UTC] Pods Meta Save Error:First Name is empty
+[10-Jul-2024 23:05:24 UTC] Pods Meta Save Error:There was an issue validating the field First Name
+[10-Jul-2024 23:05:34 UTC] Pods Meta Save Error:First Name is empty
+[10-Jul-2024 23:05:34 UTC] Pods Meta Save Error:There was an issue validating the field First Name
+[10-Jul-2024 23:08:13 UTC] Pods Meta Save Error:First Name is empty
+[10-Jul-2024 23:08:13 UTC] Pods Meta Save Error:There was an issue validating the field First Name
+[10-Jul-2024 23:08:56 UTC] Pods Meta Save Error:First Name is empty
+[10-Jul-2024 23:08:56 UTC] Pods Meta Save Error:There was an issue validating the field First Name
+[10-Jul-2024 23:09:43 UTC] Pods Meta Save Error:First Name is empty
+[10-Jul-2024 23:09:43 UTC] Pods Meta Save Error:There was an issue validating the field First Name
+[17-Jul-2024 23:05:39 UTC] PHP Warning:  Undefined variable $image_properties in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:05:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:06:10 UTC] PHP Warning:  Undefined variable $image_properties in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:06:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:06:13 UTC] PHP Warning:  Undefined variable $image_properties in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:06:19 UTC] PHP Warning:  Undefined variable $image_properties in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:06:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 12
+[17-Jul-2024 23:08:03 UTC] PHP Warning:  Undefined variable $mypod in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 5
+[17-Jul-2024 23:08:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function row() on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php:5
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 5
+[17-Jul-2024 23:14:14 UTC] PHP Warning:  Undefined variable $mypod in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 5
+[17-Jul-2024 23:14:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function row() on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php:5
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/page.php on line 5
+[09-Aug-2024 13:06:07 UTC] Pods Meta Save Error:icon class is empty
+[09-Aug-2024 13:06:07 UTC] Pods Meta Save Error:There was an issue validating the field icon class
+[09-Aug-2024 16:33:55 UTC] Pods Meta Save Error:icon class is empty
+[09-Aug-2024 16:33:55 UTC] Pods Meta Save Error:There was an issue validating the field icon class
+[23-Aug-2024 21:03:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_htm() in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/header.php:5
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/template.php(745): load_template('/Users/cj/Local...', true, Array)
+#2 /Users/cj/Local Sites/hightable/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php(2): get_header()
+#4 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include('/Users/cj/Local...')
+#5 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#6 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#7 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/header.php on line 5
+[25-Aug-2024 02:03:52 UTC] PHP Warning:  Undefined variable $query in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 186
+[25-Aug-2024 02:03:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function post_count() on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:186
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 186
+[25-Aug-2024 02:23:52 UTC] PHP Warning:  Undefined variable $query in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:23:52 UTC] PHP Warning:  Attempt to read property "post_count" on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:24:29 UTC] PHP Warning:  Undefined variable $query in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:24:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function post_count() on null in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:253
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:25:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_count() in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:253
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:25:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_count() in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:253
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_count() in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:253
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:37:21 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 273
+[25-Aug-2024 02:38:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: count() expects at least 1 argument, 0 given in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:253
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php(253): count()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#3 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#4 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 253
+[25-Aug-2024 02:39:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 314
+[25-Aug-2024 02:40:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: count() expects at least 1 argument, 0 given in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:196
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php(196): count()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#3 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#4 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 196
+[25-Aug-2024 02:47:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "params" in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php:192
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cj/Local Sites/hightable/app/public/wp-blog-header.php(19): require_once('/Users/cj/Local...')
+#2 /Users/cj/Local Sites/hightable/app/public/index.php(17): require('/Users/cj/Local...')
+#3 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 192
+[25-Aug-2024 02:57:32 UTC] PHP Warning:  Undefined variable $image_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 248
+[25-Aug-2024 02:57:32 UTC] PHP Warning:  Undefined variable $image_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 248
+[25-Aug-2024 02:57:51 UTC] PHP Warning:  Undefined variable $image_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 248
+[25-Aug-2024 02:57:51 UTC] PHP Warning:  Undefined variable $image_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 248
+[25-Aug-2024 02:57:58 UTC] PHP Warning:  Undefined variable $image_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 248
+[25-Aug-2024 02:57:58 UTC] PHP Warning:  Undefined variable $image_url in /Users/cj/Local Sites/hightable/app/public/wp-content/themes/myportfolio/index.php on line 248
+[02-Sep-2024 05:37:16 UTC] PHP Warning:  Undefined array key 3 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 132
+[02-Sep-2024 05:38:54 UTC] PHP Warning:  Undefined array key 1 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 132
+[02-Sep-2024 05:38:54 UTC] PHP Warning:  Undefined array key 2 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 133
+[02-Sep-2024 05:38:54 UTC] PHP Warning:  Undefined array key 3 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 134
+[02-Sep-2024 23:35:43 UTC] PHP Parse error:  Unclosed '{' on line 64 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 65
+[02-Sep-2024 23:35:43 UTC] PHP Parse error:  Unclosed '{' on line 64 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 65
+[02-Sep-2024 23:35:46 UTC] PHP Parse error:  Unclosed '{' on line 64 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 65
+[02-Sep-2024 23:35:49 UTC] PHP Parse error:  Unclosed '{' on line 64 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 65
+[02-Sep-2024 23:35:49 UTC] PHP Parse error:  Unclosed '{' on line 64 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 65
+[02-Sep-2024 23:35:53 UTC] PHP Parse error:  Unclosed '{' on line 64 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 65
+[02-Sep-2024 23:35:53 UTC] PHP Parse error:  Unclosed '{' on line 64 in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 65
+[02-Sep-2024 23:40:33 UTC] PHP Fatal error:  Cannot redeclare appointment_settings_page_html() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:23) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 95
+[02-Sep-2024 23:41:53 UTC] PHP Fatal error:  Cannot redeclare appointment_settings_page_html() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:23) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 95
+[02-Sep-2024 23:41:55 UTC] PHP Fatal error:  Cannot redeclare appointment_settings_page_html() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:23) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 95
+[02-Sep-2024 23:41:55 UTC] PHP Fatal error:  Cannot redeclare appointment_settings_page_html() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:23) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 95
+[03-Sep-2024 00:27:26 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 9
+[03-Sep-2024 00:29:21 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 16
+[03-Sep-2024 00:29:36 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 16
+[03-Sep-2024 00:32:56 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:57) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 4
+[03-Sep-2024 00:33:11 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:57) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 4
+[03-Sep-2024 00:35:11 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:37) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 4
+[03-Sep-2024 00:37:11 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:37) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 26
+[03-Sep-2024 00:39:11 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:37) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 26
+[03-Sep-2024 00:40:55 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:27) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 26
+[03-Sep-2024 00:40:58 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:27) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 26
+[03-Sep-2024 00:40:58 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php:27) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 26
+[03-Sep-2024 00:41:48 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php:4) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 54
+[03-Sep-2024 00:41:48 UTC] PHP Fatal error:  Cannot redeclare appointment_custom_fields_callback() (previously declared in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php:4) in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/form.php on line 54
+[03-Sep-2024 00:42:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "appointment_add_custom_fields" not found or invalid function name in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/cj/Local Sites/hightable/app/public/wp-admin/includes/meta-boxes.php(1716): do_action('add_meta_boxes', 'appointment', Object(WP_Post))
+#3 /Users/cj/Local Sites/hightable/app/public/wp-admin/edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#4 /Users/cj/Local Sites/hightable/app/public/wp-admin/post-new.php(75): require('/Users/cj/Local...')
+#5 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php on line 326
+[03-Sep-2024 00:42:23 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "appointment_add_custom_fields" not found or invalid function name in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/cj/Local Sites/hightable/app/public/wp-admin/includes/meta-boxes.php(1716): do_action('add_meta_boxes', 'appointment', Object(WP_Post))
+#3 /Users/cj/Local Sites/hightable/app/public/wp-admin/edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#4 /Users/cj/Local Sites/hightable/app/public/wp-admin/post-new.php(75): require('/Users/cj/Local...')
+#5 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php on line 326
+[03-Sep-2024 00:44:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "appointment_add_custom_fields" not found or invalid function name in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/cj/Local Sites/hightable/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/cj/Local Sites/hightable/app/public/wp-admin/includes/meta-boxes.php(1716): do_action('add_meta_boxes', 'appointment', Object(WP_Post))
+#3 /Users/cj/Local Sites/hightable/app/public/wp-admin/edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#4 /Users/cj/Local Sites/hightable/app/public/wp-admin/post-new.php(75): require('/Users/cj/Local...')
+#5 {main}
+  thrown in /Users/cj/Local Sites/hightable/app/public/wp-includes/class-wp-hook.php on line 326
+[03-Sep-2024 00:53:12 UTC] PHP Parse error:  syntax error, unexpected variable "$subject" in /Users/cj/Local Sites/hightable/app/public/wp-content/plugins/ninja-scheduler/index.php on line 166

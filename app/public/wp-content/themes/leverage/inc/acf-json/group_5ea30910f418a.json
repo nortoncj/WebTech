@@ -1,0 +1,1097 @@
+{
+    "key": "group_5ea30910f418a",
+    "title": "Page Settings",
+    "fields": [
+        {
+            "key": "field_5ecc65b286603",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-page-settings",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\">\r\n    <p>Enable this option to make conditional adjustments for this page. The settings for all tabs will override the <b><a href=\"admin.php?page=theme-settings-general\" target=\"_blank\">General Settings<\/a><\/b>.<\/p>\r\n<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea76453a5518",
+            "label": "Override General Settings",
+            "name": "override_general_settings",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-heading",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68d32136a4",
+            "label": "Navbar",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eaa476f0392b",
+            "label": "Logo Filter",
+            "name": "logo_filter",
+            "type": "true_false",
+            "instructions": "Enable this option for the Logo to be 100% white. This is useful when the Navbar is dark.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eaa463643340",
+            "label": "Background Color",
+            "name": "header_bg_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the Navbar when the page is scrolled.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5eaa466b43341",
+            "label": "Text Item Color",
+            "name": "nav_item_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the text items in the Navbar when the page is scrolled.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f4ed74de8552",
+            "label": "Top: Text Item Color",
+            "name": "top_nav_item_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the text items in the Navbar when the page is at the top.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5f13a25f57dc9",
+            "label": "Hero Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ee9700350420",
+            "label": "Disable Hero Section",
+            "name": "disable_hero_section",
+            "type": "true_false",
+            "instructions": "Enable this option to remove the Banner from the page, also known as Hero Section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ecc6576a3088",
+            "label": "Enable Dark Mode",
+            "name": "enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of the Hero Section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eb3237541d32",
+            "label": "Background Color",
+            "name": "hero_bg_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the Banner, also known as the Hero Section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5ec68d90136a5",
+            "label": "News Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea30912aae20",
+            "label": "Enable News Section",
+            "name": "enable_news",
+            "type": "true_false",
+            "instructions": "This section is useful for displaying Recent Posts. To edit the content go to <a href=\"admin.php?page=theme-settings-news\" target=\"_blank\">News Section<\/a>.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5fd66454ad4c5",
+            "label": "Post Type",
+            "name": "news_post_type",
+            "type": "button_group",
+            "instructions": "Select the type of post that this section should display only on this page.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "post": "Blog Post",
+                "leverage-portfolio": "Portfolio Archive"
+            },
+            "allow_null": 0,
+            "default_value": "post",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5fd66456ad4c6",
+            "label": "Post Category",
+            "name": "news_post_category",
+            "type": "taxonomy",
+            "instructions": "Select a specific category for the items in this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5fd66454ad4c5",
+                        "operator": "==",
+                        "value": "post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "category",
+            "field_type": "select",
+            "allow_null": 1,
+            "add_term": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "id",
+            "multiple": 0
+        },
+        {
+            "key": "field_5fd6645bad4c7",
+            "label": "Portfolio Category",
+            "name": "news_portfolio_category",
+            "type": "taxonomy",
+            "instructions": "Select a specific category for the items in this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5fd66454ad4c5",
+                        "operator": "==",
+                        "value": "leverage-portfolio"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "leverage_portfolio_category",
+            "field_type": "select",
+            "allow_null": 1,
+            "add_term": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "id",
+            "multiple": 0
+        },
+        {
+            "key": "field_5ec68c3ee5866",
+            "label": "Enable Divider",
+            "name": "news_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68b4c55342",
+            "label": "Enable Dark Mode",
+            "name": "news_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68a6d5533d",
+            "label": "Background Color",
+            "name": "news_background_color",
+            "type": "color_picker",
+            "instructions": "That color will be applied to this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5ec68d9c136a6",
+            "label": "Subscribe Form",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea30912a8d2a",
+            "label": "Enable Subscribe Form",
+            "name": "enable_subscribe",
+            "type": "true_false",
+            "instructions": "This section is useful for capturing subscribers. To edit the content, go to <a href=\"admin.php?page=theme-settings-subscribe\" target=\"_blank\">Subscribe Form<\/a>.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68c72e5867",
+            "label": "Enable Divider",
+            "name": "subscribe_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912a8d2a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68b5055343",
+            "label": "Enable Dark Mode",
+            "name": "subscribe_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912a8d2a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68ac05533f",
+            "label": "Background Color",
+            "name": "subscribe_background_color",
+            "type": "color_picker",
+            "instructions": "That color will be applied to this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912a8d2a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5ec68db1136a7",
+            "label": "Contact Form",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea30912acc15",
+            "label": "Enable Contact Form",
+            "name": "enable_form",
+            "type": "true_false",
+            "instructions": "This is the main contact section. To edit the content and style of the form, go to <a href=\"admin.php?page=theme-settings-form\" target=\"_blank\">Contact Form<\/a>.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68c8ce5868",
+            "label": "Enable Divider",
+            "name": "form_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912acc15",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68b5555344",
+            "label": "Enable Dark Mode",
+            "name": "form_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912acc15",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68ae355340",
+            "label": "Background Color",
+            "name": "form_background_color",
+            "type": "color_picker",
+            "instructions": "That color will be applied to this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912acc15",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5ec68dc1136a8",
+            "label": "Custom Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea713d83a353",
+            "label": "Enable Custom Section",
+            "name": "enable_custom",
+            "type": "true_false",
+            "instructions": "This is the custom feature section. To edit the content or add shortcode, go to <a href=\"admin.php?page=theme-settings-general\" target=\"_blank\">Custom Feature<\/a>.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68c9fe5869",
+            "label": "Enable Divider",
+            "name": "custom_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea713d83a353",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68b5955345",
+            "label": "Enable Dark Mode",
+            "name": "custom_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea713d83a353",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68af155341",
+            "label": "Background Color",
+            "name": "custom_background_color",
+            "type": "color_picker",
+            "instructions": "That color will be applied to this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea713d83a353",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5ecc498d57d2f",
+            "label": "Content & Sidebar",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f13a32f57dca",
+            "label": "Container",
+            "name": "content_container",
+            "type": "button_group",
+            "instructions": "Choose the width of the Container for the Content Area. The Content Area is at the top (where you can use Gutemberg).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "smaller": "Smaller",
+                "default": "Default",
+                "full-grid": "Full",
+                "disabled": "Disabled"
+            },
+            "allow_null": 0,
+            "default_value": "default",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f13a34b57dcb",
+            "label": "Vertical Spacing",
+            "name": "content_vertical_spacing",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing for the content area in the Desktop Version. (Screens larger than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 130,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f13a37257dcc",
+            "label": "Vertical Spacing < 768px",
+            "name": "content_vertical_spacing_responsive",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing for the content area in the Mobile Version. (Screens smaller than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 90,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ecc499157d30",
+            "label": "Disable Sidebar",
+            "name": "disable_sidebar",
+            "type": "true_false",
+            "instructions": "Enable this option to disable Sidebar on this page. If there are no <a href=\"widgets.php\" target=\"_blank\">Available Widgets<\/a>, the Sidebar is hidden auto.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "leverage-portfolio"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1610412182
+}

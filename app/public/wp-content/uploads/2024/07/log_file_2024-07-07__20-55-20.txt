@@ -1,0 +1,36 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://hightable.local
+Data file = /Users/cj/Local Sites/hightable/app/public/wp-content/uploads/2024/07/demo-4-2.xml
+Widget file = /Users/cj/Local Sites/hightable/app/public/wp-content/uploads/2024/07/widgets-1.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Leverage Widget - No Title - Widget already exists
+Categories - Categories - Widget already exists
+Tag Cloud - Popular Tags - Widget already exists
+Leverage Widget - No Title - Widget already exists
+Gallery - Image Gallery - Widget already exists
+
+Page Sidebar : 
+
+Leverage Widget - No Title - Widget already exists
+Leverage Widget - No Title - Widget already exists
+
+
+
+---pt-ocdi/after_import---
+

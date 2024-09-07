@@ -1,0 +1,85 @@
+@mixin fade-transition($element) {
+  -webkit-transition: $element 0.15s ease-in-out;
+  -moz-transition: $element 0.15s ease-in-out;
+  -ms-transition: $element 0.15s ease-in-out;
+  -o-transition: $element 0.15s ease-in-out;
+  transition: $element 0.15s ease-in-out;
+}
+
+.container h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+#page-template {
+  padding: 80px 0;
+}
+#page-template .container {
+  padding: 0 15px;
+}
+
+.wp-block-group .wp-block-group__inner-container p {
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 40px 0 10px 0;
+}
+
+.wpcf7-form p {
+  margin: 10px 0 10px 0;
+}
+
+.wpcf7-form p label {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.wpcf7-submit {
+  font-size: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 5px;
+  color: #000;
+  border: 3px solid #000;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.wpcf7-submit:hover {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    background: linear-gradient(
+      to right,
+      fade_out(#fff, 1) 0%,
+      fade_out(#fff, 0.7) 100%
+    );
+    content: "";
+    display: block;
+    height: 100%;
+    left: -75%;
+    position: absolute;
+    top: 0;
+    transform: skewX(-25deg);
+    width: 50%;
+    z-index: 2;
+  }
+
+  &:hover,
+  &:focus {
+    &::before {
+      animation: shine 0.85s;
+    }
+  }
+
+  @keyframes .wpcf7-submit {
+    100% {
+      left: 125%;
+    }
+  }
+}
+
+.is-layout-flex {
+  justify-content: space-between;
+}

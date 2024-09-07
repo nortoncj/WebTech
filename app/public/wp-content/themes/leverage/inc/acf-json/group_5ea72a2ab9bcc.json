@@ -1,0 +1,98 @@
+{
+    "key": "group_5ea72a2ab9bcc",
+    "title": "Advanced",
+    "fields": [
+        {
+            "key": "field_5eac791668c20",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Here you can add additional <code>JavaScript<\/code> and <code>CSS<\/code>. Your code will be loaded on all pages before the <code>&lt;body&gt;<\/code> tag.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5f56ea352185b",
+            "label": "Disable ACF Menu Item",
+            "name": "disable_acf_item",
+            "type": "true_false",
+            "instructions": "By enabling this option, the Custom Fields menu item that is positioned above Theme Settings will be removed. Activate if you are not using.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea72a8f2ac83",
+            "label": "Custom CSS",
+            "name": "custom_css",
+            "type": "textarea",
+            "instructions": "Add custom styles to the entire website. It is not necessary to include the <code>&lt;style&gt;<\/code> tag.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 8,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ea72aa12ac84",
+            "label": "Custom JS",
+            "name": "custom_js",
+            "type": "textarea",
+            "instructions": "Add custom script to the entire website. It is not necessary to include the <code>&lt;script&gt;<\/code> tag.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 8,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-advanced"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1599531906
+}

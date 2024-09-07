@@ -1,0 +1,1042 @@
+{
+    "key": "group_5f5695bf3f2e0",
+    "title": "News Section",
+    "fields": [
+        {
+            "key": "field_5f56d16efb955",
+            "label": "Options",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f5695bf66f14",
+            "label": "Custom ID",
+            "name": "news_custom_id",
+            "type": "text",
+            "instructions": "Assigning an ID to this section, you can use it to create an anchor link.<br \/><a href=\"https:\/\/leverage.codings.dev\/docs.php?v=wordpress#anchor-link\" target=\"_blank\">Read more<\/a>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "input-200",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f5695bf68e81",
+            "label": "Custom Class",
+            "name": "news_custom_class",
+            "type": "text",
+            "instructions": "Enter a Class if you want to create Custom CSS.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "input-200",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f5695bf6ad7c",
+            "label": "Enable on Front Page",
+            "name": "enable_news_on_front_page",
+            "type": "true_false",
+            "instructions": "Enable so that this section appears only on the front page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f5695bf6cd0a",
+            "label": "Enable on Pages",
+            "name": "enable_news_on_pages",
+            "type": "true_false",
+            "instructions": "Please enable this section to appear on all pages.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f5695bf6ec40",
+            "label": "Enable on Posts",
+            "name": "enable_news_on_posts",
+            "type": "true_false",
+            "instructions": "Please enable this section to appear on all post pages.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f5695bf76942",
+            "label": "Carousel Autoplay",
+            "name": "news_autoplay",
+            "type": "true_false",
+            "instructions": "The News Section is displayed in a carousel format. Enable this option so that pagination is automatic.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5fd66266d19e7",
+            "label": "Post Type",
+            "name": "news_post_type",
+            "type": "button_group",
+            "instructions": "Select the type of post that this section should display the items.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "post": "Blog Post",
+                "leverage-portfolio": "Portfolio Archive"
+            },
+            "allow_null": 0,
+            "default_value": "post",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5fd66378d19e8",
+            "label": "Post Category",
+            "name": "news_post_category",
+            "type": "taxonomy",
+            "instructions": "Select a specific category for the items in this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd66266d19e7",
+                        "operator": "==",
+                        "value": "post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "category",
+            "field_type": "select",
+            "allow_null": 1,
+            "add_term": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "id",
+            "multiple": 0
+        },
+        {
+            "key": "field_5fd663b8d19e9",
+            "label": "Portfolio Category",
+            "name": "news_portfolio_category",
+            "type": "taxonomy",
+            "instructions": "Select a specific category for the items in this section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd66266d19e7",
+                        "operator": "==",
+                        "value": "leverage-portfolio"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "leverage_portfolio_category",
+            "field_type": "select",
+            "allow_null": 1,
+            "add_term": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "id",
+            "multiple": 0
+        },
+        {
+            "key": "field_5f56d176fb956",
+            "label": "Design & Color",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f5695bf70b7d",
+            "label": "Enable Divider",
+            "name": "news_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f5695bf72ac0",
+            "label": "Enable Dark Mode",
+            "name": "news_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f5695bf749fc",
+            "label": "Background Color",
+            "name": "news_background_color",
+            "type": "color_picker",
+            "instructions": "That color will be applied to this section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#eeeeee"
+        },
+        {
+            "key": "field_5f56d2dafb958",
+            "label": "Layout",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f5695bf7888d",
+            "label": "Carousel Layout",
+            "name": "news_carousel_layout",
+            "type": "button_group",
+            "instructions": "Choose the layout of the Carousel.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "mid-slider-simple": "Simple",
+                "mid-slider": "Stretched"
+            },
+            "allow_null": 0,
+            "default_value": "mid-slider",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f5695bf7a80a",
+            "label": "Container",
+            "name": "news_container",
+            "type": "button_group",
+            "instructions": "Choose the width of the Container in this section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "smaller": "Smaller",
+                "default": "Default",
+                "full-grid": "Full"
+            },
+            "allow_null": 0,
+            "default_value": "default",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f5695bf7c707",
+            "label": "Vertical Spacing",
+            "name": "news_vertical_spacing",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing of this section in the Desktop Version. (Screens larger than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 130,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f5695bf7e655",
+            "label": "Vertical Spacing < 768px",
+            "name": "news_vertical_spacing_responsive",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing of this section in the Mobile Version. (Screens smaller than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 90,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f5695bf80579",
+            "label": "Columns",
+            "name": "news_columns",
+            "type": "range",
+            "instructions": "Choose from 1-6 columns for this section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 3,
+            "min": 1,
+            "max": 6,
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f56d2eefb959",
+            "label": "Button",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f5695bf8a1c0",
+            "label": "Enable Button",
+            "name": "enable_news_button",
+            "type": "true_false",
+            "instructions": "Here you can configure a Primary Button for this section. Usually used to take the blog page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f5695bf8c0f3",
+            "label": "Label",
+            "name": "news_button_label",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "VIEW ALL",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f5695bf8e040",
+            "label": "Icon Style",
+            "name": "news_button_icon_style",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Line Icon": "Line Icon",
+                "Awesome Icon": "Awesome Icon"
+            },
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f5695bf8ff79",
+            "label": "Line Icon",
+            "name": "news_button_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f5695bf8e040",
+                        "operator": "==",
+                        "value": "Line Icon"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "leverage-icon",
+                "id": ""
+            },
+            "choices": {
+                "user": "user",
+                "people": "people",
+                "user-female": "user-female",
+                "user-follow": "user-follow",
+                "user-following": "user-following",
+                "user-unfollow": "user-unfollow",
+                "login": "login",
+                "logout": "logout",
+                "emotsmile": "emotsmile",
+                "phone": "phone",
+                "call-end": "call-end",
+                "call-in": "call-in",
+                "call-out": "call-out",
+                "map": "map",
+                "location-pin": "location-pin",
+                "direction": "direction",
+                "directions": "directions",
+                "compass": "compass",
+                "layers": "layers",
+                "menu": "menu",
+                "list": "list",
+                "options-vertical": "options-vertical",
+                "options": "options",
+                "arrow-down": "arrow-down",
+                "arrow-left": "arrow-left",
+                "arrow-right": "arrow-right",
+                "arrow-up": "arrow-up",
+                "arrow-up-circle": "arrow-up-circle",
+                "arrow-left-circle": "arrow-left-circle",
+                "arrow-right-circle": "arrow-right-circle",
+                "arrow-down-circle": "arrow-down-circle",
+                "check": "check",
+                "clock": "clock",
+                "plus": "plus",
+                "minus": "minus",
+                "close": "close",
+                "event": "event",
+                "exclamation": "exclamation",
+                "organization": "organization",
+                "trophy": "trophy",
+                "screen-smartphone": "screen-smartphone",
+                "screen-desktop": "screen-desktop",
+                "plane": "plane",
+                "notebook": "notebook",
+                "mustache": "mustache",
+                "mouse": "mouse",
+                "magnet": "magnet",
+                "energy": "energy",
+                "disc": "disc",
+                "cursor": "cursor",
+                "cursor-move": "cursor-move",
+                "crop": "crop",
+                "chemistry": "chemistry",
+                "speedometer": "speedometer",
+                "shield": "shield",
+                "screen-tablet": "screen-tablet",
+                "magic-wand": "magic-wand",
+                "hourglass": "hourglass",
+                "graduation": "graduation",
+                "ghost": "ghost",
+                "game-controller": "game-controller",
+                "fire": "fire",
+                "eyeglass": "eyeglass",
+                "envelope-open": "envelope-open",
+                "envelope-letter": "envelope-letter",
+                "bell": "bell",
+                "badge": "badge",
+                "anchor": "anchor",
+                "wallet": "wallet",
+                "vector": "vector",
+                "speech": "speech",
+                "puzzle": "puzzle",
+                "printer": "printer",
+                "present": "present",
+                "playlist": "playlist",
+                "pin": "pin",
+                "picture": "picture",
+                "handbag": "handbag",
+                "globe-alt": "globe-alt",
+                "globe": "globe",
+                "folder-alt": "folder-alt",
+                "folder": "folder",
+                "film": "film",
+                "feed": "feed",
+                "drop": "drop",
+                "drawer": "drawer",
+                "docs": "docs",
+                "doc": "doc",
+                "diamond": "diamond",
+                "cup": "cup",
+                "calculator": "calculator",
+                "bubbles": "bubbles",
+                "briefcase": "briefcase",
+                "book-open": "book-open",
+                "basket-loaded": "basket-loaded",
+                "basket": "basket",
+                "bag": "bag",
+                "action-undo": "action-undo",
+                "action-redo": "action-redo",
+                "wrench": "wrench",
+                "umbrella": "umbrella",
+                "trash": "trash",
+                "tag": "tag",
+                "support": "support",
+                "frame": "frame",
+                "size-fullscreen": "size-fullscreen",
+                "size-actual": "size-actual",
+                "shuffle": "shuffle",
+                "share-alt": "share-alt",
+                "share": "share",
+                "rocket": "rocket",
+                "question": "question",
+                "pie-chart": "pie-chart",
+                "pencil": "pencil",
+                "note": "note",
+                "loop": "loop",
+                "home": "home",
+                "grid": "grid",
+                "graph": "graph",
+                "microphone": "microphone",
+                "music-tone-alt": "music-tone-alt",
+                "music-tone": "music-tone",
+                "earphones-alt": "earphones-alt",
+                "earphones": "earphones",
+                "equalizer": "equalizer",
+                "like": "like",
+                "dislike": "dislike",
+                "control-start": "control-start",
+                "control-rewind": "control-rewind",
+                "control-play": "control-play",
+                "control-pause": "control-pause",
+                "control-forward": "control-forward",
+                "control-end": "control-end",
+                "volume-1": "volume-1",
+                "volume-2": "volume-2",
+                "volume-off": "volume-off",
+                "calendar": "calendar",
+                "bulb": "bulb",
+                "chart": "chart",
+                "ban": "ban",
+                "bubble": "bubble",
+                "camrecorder": "camrecorder",
+                "camera": "camera",
+                "cloud-download": "cloud-download",
+                "cloud-upload": "cloud-upload",
+                "envelope": "envelope",
+                "eye": "eye",
+                "flag": "flag",
+                "heart": "heart",
+                "info": "info",
+                "key": "key",
+                "link": "link",
+                "lock": "lock",
+                "lock-open": "lock-open",
+                "magnifier": "magnifier",
+                "magnifier-add": "magnifier-add",
+                "magnifier-remove": "magnifier-remove",
+                "paper-clip": "paper-clip",
+                "paper-plane": "paper-plane",
+                "power": "power",
+                "refresh": "refresh",
+                "reload": "reload",
+                "settings": "settings",
+                "star": "star",
+                "symbol-female": "symbol-female",
+                "symbol-male": "symbol-male",
+                "target": "target",
+                "credit-card": "credit-card",
+                "paypal": "paypal",
+                "social-tumblr": "social-tumblr",
+                "social-twitter": "social-twitter",
+                "social-facebook": "social-facebook",
+                "social-instagram": "social-instagram",
+                "social-linkedin": "social-linkedin",
+                "social-pinterest": "social-pinterest",
+                "social-github": "social-github",
+                "social-google": "social-google",
+                "social-reddit": "social-reddit",
+                "social-skype": "social-skype",
+                "social-dribbble": "social-dribbble",
+                "social-behance": "social-behance",
+                "social-foursqare": "social-foursqare",
+                "social-soundcloud": "social-soundcloud",
+                "social-spotify": "social-spotify",
+                "social-stumbleupon": "social-stumbleupon",
+                "social-youtube": "social-youtube",
+                "social-dropbox": "social-dropbox",
+                "social-vkontakte": "social-vkontakte",
+                "social-steam": "social-steam"
+            },
+            "default_value": "grid",
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 1,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f5695bf91f03",
+            "label": "Awesome Icon",
+            "name": "news_button_icon_fa",
+            "type": "font-awesome",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f5695bf8e040",
+                        "operator": "==",
+                        "value": "Awesome Icon"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "icon_sets": [
+                "fas",
+                "far",
+                "fab"
+            ],
+            "custom_icon_set": "",
+            "default_label": "",
+            "default_value": "",
+            "save_format": "class",
+            "allow_null": 1,
+            "show_preview": 0,
+            "enqueue_fa": 1,
+            "fa_live_preview": "",
+            "choices": []
+        },
+        {
+            "key": "field_5f5695bf93dbf",
+            "label": "Target",
+            "name": "news_button_target",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Anchor Link": "Anchor Link",
+                "Internal Link": "Internal Link",
+                "External Link": "External Link",
+                "Inner Page": "Inner Page",
+                "Inner Post": "Inner Post"
+            },
+            "default_value": "Inner Page",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f5695bf95d35",
+            "label": "URL",
+            "name": "news_button_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f5695bf93dbf",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f5695bf93dbf",
+                        "operator": "==",
+                        "value": "Internal Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f5695bf93dbf",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#contact",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f5695bf97c05",
+            "label": "Page",
+            "name": "news_button_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f5695bf93dbf",
+                        "operator": "==",
+                        "value": "Inner Page"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5f5695bf99b98",
+            "label": "Post",
+            "name": "news_button_post",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f5695bf93dbf",
+                        "operator": "==",
+                        "value": "Inner Post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5f56d302fb95a",
+            "label": "Heading",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f5695bf824b5",
+            "label": "Text Align",
+            "name": "news_text_align",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f5695bf8a1c0",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "text-md-left": "Left",
+                "text-md-center": "Center",
+                "text-md-right": "Right"
+            },
+            "allow_null": 0,
+            "default_value": "text-center",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f5695bf84409",
+            "label": "Heading Style",
+            "name": "news_heading_style",
+            "type": "button_group",
+            "instructions": "Choose the style of the Title for this section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "simple": "Simple",
+                "featured": "Topline",
+                "super effect-static-text": "Colorful"
+            },
+            "allow_null": 0,
+            "default_value": "featured",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f5695bf86342",
+            "label": "Title",
+            "name": "news_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Latest News",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f5695bf8827e",
+            "label": "Description",
+            "name": "news_description",
+            "type": "wysiwyg",
+            "instructions": "Create a description that will be positioned below the Title.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur.",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-news"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1607890864
+}

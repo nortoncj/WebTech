@@ -1,0 +1,602 @@
+{
+    "key": "group_5f56d60480ff5",
+    "title": "Subscribe Form",
+    "fields": [
+        {
+            "key": "field_5f56d6049b142",
+            "label": "Options",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f56d604a3374",
+            "label": "Custom ID",
+            "name": "subscribe_custom_id",
+            "type": "text",
+            "instructions": "Assigning an ID to this section, you can use it to create an anchor link.<br \/><a href=\"https:\/\/leverage.codings.dev\/docs.php?v=wordpress#anchor-link\" target=\"_blank\">Read more<\/a>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "input-200",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f56d604a375d",
+            "label": "Custom Class",
+            "name": "subscribe_custom_class",
+            "type": "text",
+            "instructions": "Enter a Class if you want to create Custom CSS.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "input-200",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f56d604a3b6e",
+            "label": "Enable on Front Page",
+            "name": "enable_subscribe_on_front_page",
+            "type": "true_false",
+            "instructions": "Enable so that this section appears only on the front page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f56d604a3f35",
+            "label": "Enable on Pages",
+            "name": "enable_subscribe_on_pages",
+            "type": "true_false",
+            "instructions": "Please enable this section to appear on all pages.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f56d604a4308",
+            "label": "Enable on Posts",
+            "name": "enable_subscribe_on_posts",
+            "type": "true_false",
+            "instructions": "Please enable this section to appear on all post pages.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f56d6049cd69",
+            "label": "Design & Color",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f56d604a4748",
+            "label": "Enable Divider",
+            "name": "subscribe_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f56d604a4b2c",
+            "label": "Enable Dark Mode",
+            "name": "subscribe_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f56d604a4f2a",
+            "label": "Background Color",
+            "name": "subscribe_background_color",
+            "type": "color_picker",
+            "instructions": "That color will be applied to this section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#e5e5e5"
+        },
+        {
+            "key": "field_5f56d6049dca9",
+            "label": "Layout",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f56d604a5372",
+            "label": "Container",
+            "name": "subscribe_container",
+            "type": "button_group",
+            "instructions": "Choose the width of the Container in this section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "smaller": "Smaller",
+                "default": "Default",
+                "full-grid": "Full"
+            },
+            "allow_null": 0,
+            "default_value": "smaller",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f56d604a574b",
+            "label": "Vertical Spacing",
+            "name": "subscribe_vertical_spacing",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing of this section in the Desktop Version. (Screens larger than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 130,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f56d604a5af0",
+            "label": "Vertical Spacing < 768px",
+            "name": "subscribe_vertical_spacing_responsive",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing of this section in the Mobile Version. (Screens smaller than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 90,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f56d6049f4f0",
+            "label": "Button",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f56d604a5eca",
+            "label": "Button Label",
+            "name": "subscribe_button_label",
+            "type": "text",
+            "instructions": "Enter the Label of the subscription form button.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "SUBSCRIBE",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f56d604a1c71",
+            "label": "Heading",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f56d604a62bf",
+            "label": "Text Align",
+            "name": "subscribe_text_align",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "text-md-left": "Left",
+                "text-md-center": "Center",
+                "text-md-right": "Right"
+            },
+            "allow_null": 0,
+            "default_value": "text-center",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f56d604a669f",
+            "label": "Heading Style",
+            "name": "subscribe_heading_style",
+            "type": "button_group",
+            "instructions": "Choose the style of the Title for this section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "simple": "Simple",
+                "featured": "Topline",
+                "super effect-static-text": "Colorful"
+            },
+            "allow_null": 0,
+            "default_value": "featured",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f56d604a6ad1",
+            "label": "Title",
+            "name": "subscribe_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Newsletter",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f56d604a6e71",
+            "label": "Description",
+            "name": "subscribe_description",
+            "type": "wysiwyg",
+            "instructions": "Create a description that will be positioned below the Title.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur.",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5f56d604a2f84",
+            "label": "Send Settings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f56d604a7265",
+            "label": "Sending Options",
+            "name": "subscribe_sending_options",
+            "type": "button_group",
+            "instructions": "Choose where subscriber data should be sent to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Email Recipient": "Email Recipient",
+                "Webhook": "Webhook"
+            },
+            "allow_null": 0,
+            "default_value": "Email Recipient",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f56d604a76ac",
+            "label": "Email Recipient",
+            "name": "subscribe_email_recipient",
+            "type": "text",
+            "instructions": "For multiples emails, type them separated by commas.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f56d604a7265",
+                        "operator": "==",
+                        "value": "Email Recipient"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "email1@example.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f56d604a7af6",
+            "label": "Webhook URL",
+            "name": "subscribe_webhook_url",
+            "type": "url",
+            "instructions": "The webhook option is recommended for integrations.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f56d604a7265",
+                        "operator": "==",
+                        "value": "Webhook"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_6018112355b61",
+            "label": "Email Subject",
+            "name": "subscribe_subject_message",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "New subscription",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6018112655b62",
+            "label": "Email Heading",
+            "name": "subscribe_heading_message",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "New subscription",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6018112955b63",
+            "label": "Success Message",
+            "name": "subscribe_success_message",
+            "type": "text",
+            "instructions": "The message will be displayed when the form submission is successful.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Your message was sent successful. Thanks.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6018112b55b64",
+            "label": "Validation Message",
+            "name": "subscribe_validation_message",
+            "type": "text",
+            "instructions": "The message will be displayed when validation errors occur on the form.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Validation errors occurred. Please confirm the fields and submit it again.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6018112e55b65",
+            "label": "Error  Message",
+            "name": "subscribe_error_message",
+            "type": "text",
+            "instructions": "The message will be displayed when the server is unavailable or there is a technical problem.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Sorry. We were unable to send your message.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-subscribe"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1612190188
+}

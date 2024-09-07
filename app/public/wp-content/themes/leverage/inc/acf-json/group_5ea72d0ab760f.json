@@ -1,0 +1,2434 @@
+{
+    "key": "group_5ea72d0ab760f",
+    "title": "Footer",
+    "fields": [
+        {
+            "key": "field_5f3ef0e9bcae9",
+            "label": "Options",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f40215a492e0",
+            "label": "Footer Items",
+            "name": "footer_default",
+            "type": "group",
+            "instructions": "Enable the items to build a Footer.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "sub_fields": [
+                {
+                    "key": "field_5ea8980fe17b4",
+                    "label": "Footer Content",
+                    "name": "enable_footer",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f3ef3e5bcaec",
+                    "label": "Branding",
+                    "name": "enable_footer_branding",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ea8980fe17b4",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f3ef449bcaed",
+                    "label": "Social Networks",
+                    "name": "enable_footer_social_networks",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ea8980fe17b4",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5ea8982ce17b5",
+                    "label": "Copyright",
+                    "name": "enable_copyright",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5eab2dfe7288b",
+            "label": "Design & Color",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eab2cb77288a",
+            "label": "Enable Dark Mode",
+            "name": "footer_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of the Footer is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab2c8372889",
+            "label": "Background Color",
+            "name": "footer_background_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the Footer.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#111111"
+        },
+        {
+            "key": "field_5f139bea0dfdc",
+            "label": "Layout",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f139bc91e17b",
+            "label": "Container",
+            "name": "footer_container",
+            "type": "button_group",
+            "instructions": "Choose the width of the Footer Container.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "smaller": "Smaller",
+                "default": "Default",
+                "full-grid": "Full"
+            },
+            "allow_null": 0,
+            "default_value": "default",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f139bc71e17a",
+            "label": "Vertical Spacing",
+            "name": "footer_vertical_spacing",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing of the Footer in the Desktop Version. (Screens larger than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 130,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f139c280dfdd",
+            "label": "Vertical Spacing < 768px",
+            "name": "footer_vertical_spacing_responsive",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing of the Footer in the Mobile Version. (Screens smaller than 768px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 90,
+            "min": 0,
+            "max": 200,
+            "step": 10,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5f3efbf564fcd",
+            "label": "Columns",
+            "name": "footer_columns",
+            "type": "range",
+            "instructions": "Choose from 1-6 columns for the Footer.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "min": 1,
+            "max": 6,
+            "step": 1,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5eac30ba0189b",
+            "label": "Branding",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef3e5bcaec",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea72d1cb81ce",
+            "label": "Brand Type",
+            "name": "brand_type",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef3e5bcaec",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Logo": "Logo",
+                "Text": "Text"
+            },
+            "allow_null": 0,
+            "default_value": "Text",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ea7312150088",
+            "label": "Text",
+            "name": "text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef3e5bcaec",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea72d1cb81ce",
+                        "operator": "==",
+                        "value": "Text"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea7313950089",
+            "label": "Logo",
+            "name": "logo",
+            "type": "image",
+            "instructions": "The Logo will be positioned in the first column of the Footer.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef3e5bcaec",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea72d1cb81ce",
+                        "operator": "==",
+                        "value": "Logo"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg, jpeg, png, gif, svg"
+        },
+        {
+            "key": "field_5edd68f2baed7",
+            "label": "Logo Height",
+            "name": "footer_logo_height",
+            "type": "range",
+            "instructions": "Adjust the height of the Logo. The width will be set automatically.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef3e5bcaec",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea72d1cb81ce",
+                        "operator": "==",
+                        "value": "Logo"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 80,
+            "min": 5,
+            "max": 150,
+            "step": 1,
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5eab2f292159f",
+            "label": "Logo Filter",
+            "name": "footer_logo_filter",
+            "type": "true_false",
+            "instructions": "Enable this option for the Logo to be 100% white. This is useful when the Footer is dark.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea72d1cb81ce",
+                        "operator": "==",
+                        "value": "Logo"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea8b0369b999",
+            "label": "Description",
+            "name": "description",
+            "type": "wysiwyg",
+            "instructions": "Create a description that will be positioned below the Logo or Text.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef3e5bcaec",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5eac30ee0189c",
+            "label": "Social Networks",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef449bcaed",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea8b1924aec4",
+            "label": "Social Icons",
+            "name": "footer_social_networks",
+            "type": "flexible_content",
+            "instructions": "Here you can add Social Network Icons for the Footer. Add a Custom Item for more freedom.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5f3ef449bcaed",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5e9fcfc0f3a91": {
+                    "key": "layout_5e9fcfc0f3a91",
+                    "name": "facebook",
+                    "label": "Facebook",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b19271f2e",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5e9fd00fbdd88": {
+                    "key": "layout_5e9fd00fbdd88",
+                    "name": "instagram",
+                    "label": "Instagram",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b1927232a",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea0588eb173a": {
+                    "key": "layout_5ea0588eb173a",
+                    "name": "twitter",
+                    "label": "Twitter",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b1927273f",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea058f1b173c": {
+                    "key": "layout_5ea058f1b173c",
+                    "name": "youtube",
+                    "label": "Youtube",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b19272b4d",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05903b173e": {
+                    "key": "layout_5ea05903b173e",
+                    "name": "linkedin",
+                    "label": "Linkedin",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b19272ec3",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05a0cb1744": {
+                    "key": "layout_5ea05a0cb1744",
+                    "name": "pinterest",
+                    "label": "Pinterest",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b19273311",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05916b1740": {
+                    "key": "layout_5ea05916b1740",
+                    "name": "tumblr",
+                    "label": "Tumblr",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b192736ed",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea0591fb1742": {
+                    "key": "layout_5ea0591fb1742",
+                    "name": "dribbble",
+                    "label": "Dribbble",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea8b19273ae1",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5f518c24c556d": {
+                    "key": "layout_5f518c24c556d",
+                    "name": "custom",
+                    "label": "Custom",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f518c4367372",
+                            "label": "Icon Style",
+                            "name": "icon_style",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Line Icon": "Line Icon",
+                                "Awesome Icon": "Awesome Icon"
+                            },
+                            "allow_null": 0,
+                            "default_value": "Line Icon",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_5f518c4567373",
+                            "label": "Line Icon",
+                            "name": "icon",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5f518c4367372",
+                                        "operator": "==",
+                                        "value": "Line Icon"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "30",
+                                "class": "leverage-icon",
+                                "id": ""
+                            },
+                            "choices": {
+                                "user": "user",
+                                "people": "people",
+                                "user-female": "user-female",
+                                "user-follow": "user-follow",
+                                "user-following": "user-following",
+                                "user-unfollow": "user-unfollow",
+                                "login": "login",
+                                "logout": "logout",
+                                "emotsmile": "emotsmile",
+                                "phone": "phone",
+                                "call-end": "call-end",
+                                "call-in": "call-in",
+                                "call-out": "call-out",
+                                "map": "map",
+                                "location-pin": "location-pin",
+                                "direction": "direction",
+                                "directions": "directions",
+                                "compass": "compass",
+                                "layers": "layers",
+                                "menu": "menu",
+                                "list": "list",
+                                "options-vertical": "options-vertical",
+                                "options": "options",
+                                "arrow-down": "arrow-down",
+                                "arrow-left": "arrow-left",
+                                "arrow-right": "arrow-right",
+                                "arrow-up": "arrow-up",
+                                "arrow-up-circle": "arrow-up-circle",
+                                "arrow-left-circle": "arrow-left-circle",
+                                "arrow-right-circle": "arrow-right-circle",
+                                "arrow-down-circle": "arrow-down-circle",
+                                "check": "check",
+                                "clock": "clock",
+                                "plus": "plus",
+                                "minus": "minus",
+                                "close": "close",
+                                "event": "event",
+                                "exclamation": "exclamation",
+                                "organization": "organization",
+                                "trophy": "trophy",
+                                "screen-smartphone": "screen-smartphone",
+                                "screen-desktop": "screen-desktop",
+                                "plane": "plane",
+                                "notebook": "notebook",
+                                "mustache": "mustache",
+                                "mouse": "mouse",
+                                "magnet": "magnet",
+                                "energy": "energy",
+                                "disc": "disc",
+                                "cursor": "cursor",
+                                "cursor-move": "cursor-move",
+                                "crop": "crop",
+                                "chemistry": "chemistry",
+                                "speedometer": "speedometer",
+                                "shield": "shield",
+                                "screen-tablet": "screen-tablet",
+                                "magic-wand": "magic-wand",
+                                "hourglass": "hourglass",
+                                "graduation": "graduation",
+                                "ghost": "ghost",
+                                "game-controller": "game-controller",
+                                "fire": "fire",
+                                "eyeglass": "eyeglass",
+                                "envelope-open": "envelope-open",
+                                "envelope-letter": "envelope-letter",
+                                "bell": "bell",
+                                "badge": "badge",
+                                "anchor": "anchor",
+                                "wallet": "wallet",
+                                "vector": "vector",
+                                "speech": "speech",
+                                "puzzle": "puzzle",
+                                "printer": "printer",
+                                "present": "present",
+                                "playlist": "playlist",
+                                "pin": "pin",
+                                "picture": "picture",
+                                "handbag": "handbag",
+                                "globe-alt": "globe-alt",
+                                "globe": "globe",
+                                "folder-alt": "folder-alt",
+                                "folder": "folder",
+                                "film": "film",
+                                "feed": "feed",
+                                "drop": "drop",
+                                "drawer": "drawer",
+                                "docs": "docs",
+                                "doc": "doc",
+                                "diamond": "diamond",
+                                "cup": "cup",
+                                "calculator": "calculator",
+                                "bubbles": "bubbles",
+                                "briefcase": "briefcase",
+                                "book-open": "book-open",
+                                "basket-loaded": "basket-loaded",
+                                "basket": "basket",
+                                "bag": "bag",
+                                "action-undo": "action-undo",
+                                "action-redo": "action-redo",
+                                "wrench": "wrench",
+                                "umbrella": "umbrella",
+                                "trash": "trash",
+                                "tag": "tag",
+                                "support": "support",
+                                "frame": "frame",
+                                "size-fullscreen": "size-fullscreen",
+                                "size-actual": "size-actual",
+                                "shuffle": "shuffle",
+                                "share-alt": "share-alt",
+                                "share": "share",
+                                "rocket": "rocket",
+                                "question": "question",
+                                "pie-chart": "pie-chart",
+                                "pencil": "pencil",
+                                "note": "note",
+                                "loop": "loop",
+                                "home": "home",
+                                "grid": "grid",
+                                "graph": "graph",
+                                "microphone": "microphone",
+                                "music-tone-alt": "music-tone-alt",
+                                "music-tone": "music-tone",
+                                "earphones-alt": "earphones-alt",
+                                "earphones": "earphones",
+                                "equalizer": "equalizer",
+                                "like": "like",
+                                "dislike": "dislike",
+                                "control-start": "control-start",
+                                "control-rewind": "control-rewind",
+                                "control-play": "control-play",
+                                "control-pause": "control-pause",
+                                "control-forward": "control-forward",
+                                "control-end": "control-end",
+                                "volume-1": "volume-1",
+                                "volume-2": "volume-2",
+                                "volume-off": "volume-off",
+                                "calendar": "calendar",
+                                "bulb": "bulb",
+                                "chart": "chart",
+                                "ban": "ban",
+                                "bubble": "bubble",
+                                "camrecorder": "camrecorder",
+                                "camera": "camera",
+                                "cloud-download": "cloud-download",
+                                "cloud-upload": "cloud-upload",
+                                "envelope": "envelope",
+                                "eye": "eye",
+                                "flag": "flag",
+                                "heart": "heart",
+                                "info": "info",
+                                "key": "key",
+                                "link": "link",
+                                "lock": "lock",
+                                "lock-open": "lock-open",
+                                "magnifier": "magnifier",
+                                "magnifier-add": "magnifier-add",
+                                "magnifier-remove": "magnifier-remove",
+                                "paper-clip": "paper-clip",
+                                "paper-plane": "paper-plane",
+                                "power": "power",
+                                "refresh": "refresh",
+                                "reload": "reload",
+                                "settings": "settings",
+                                "star": "star",
+                                "symbol-female": "symbol-female",
+                                "symbol-male": "symbol-male",
+                                "target": "target",
+                                "credit-card": "credit-card",
+                                "paypal": "paypal",
+                                "social-tumblr": "social-tumblr",
+                                "social-twitter": "social-twitter",
+                                "social-facebook": "social-facebook",
+                                "social-instagram": "social-instagram",
+                                "social-linkedin": "social-linkedin",
+                                "social-pinterest": "social-pinterest",
+                                "social-github": "social-github",
+                                "social-google": "social-google",
+                                "social-reddit": "social-reddit",
+                                "social-skype": "social-skype",
+                                "social-dribbble": "social-dribbble",
+                                "social-behance": "social-behance",
+                                "social-foursqare": "social-foursqare",
+                                "social-soundcloud": "social-soundcloud",
+                                "social-spotify": "social-spotify",
+                                "social-stumbleupon": "social-stumbleupon",
+                                "social-youtube": "social-youtube",
+                                "social-dropbox": "social-dropbox",
+                                "social-vkontakte": "social-vkontakte",
+                                "social-steam": "social-steam"
+                            },
+                            "default_value": "rocket",
+                            "allow_null": 1,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 1,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5f518c4767374",
+                            "label": "Awesome Icon",
+                            "name": "icon_fa",
+                            "type": "font-awesome",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5f518c4367372",
+                                        "operator": "==",
+                                        "value": "Awesome Icon"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "icon_sets": [
+                                "fas",
+                                "far",
+                                "fab"
+                            ],
+                            "custom_icon_set": "",
+                            "default_label": "<i class=\"fab\"><\/i> accusoft",
+                            "default_value": "",
+                            "save_format": "class",
+                            "allow_null": 1,
+                            "show_preview": 0,
+                            "enqueue_fa": 1,
+                            "fa_live_preview": "",
+                            "choices": []
+                        },
+                        {
+                            "key": "field_5f518c4a67375",
+                            "label": "URL",
+                            "name": "url",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "40",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add New",
+            "min": "",
+            "max": 8
+        },
+        {
+            "key": "field_5eac30ff0189d",
+            "label": "Content",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea72ee2fefaa",
+            "label": "Columns",
+            "name": "columns",
+            "type": "flexible_content",
+            "instructions": "Add Columns to the Footer. You can build Content with Item List or Custom Content.\r\n<br\/><br\/>\r\nYou can also build <a href=\"admin.php?page=theme-settings-widgets\" target=\"_blank\">new<\/a> widgets and <a href=\"widgets.php\" target=\"_blank\">add<\/a> to the Footer.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8980fe17b4",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5ea732289a923": {
+                    "key": "layout_5ea732289a923",
+                    "name": "items",
+                    "label": "List of Items",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ed17ff48aba8",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ea732289a924",
+                            "label": "Content",
+                            "name": "links",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "field_5ea732289a925",
+                            "min": 1,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Link",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5f519091a7c55",
+                                    "label": "Icon Style",
+                                    "name": "icon_style",
+                                    "type": "button_group",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "Line Icon": "Line Icon",
+                                        "Awesome Icon": "Awesome Icon"
+                                    },
+                                    "allow_null": 0,
+                                    "default_value": "Line Icon",
+                                    "layout": "horizontal",
+                                    "return_format": "value"
+                                },
+                                {
+                                    "key": "field_5ea732849a927",
+                                    "label": "Line Icon",
+                                    "name": "icon",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5f519091a7c55",
+                                                "operator": "==",
+                                                "value": "Line Icon"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "leverage-icon",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "user": "user",
+                                        "people": "people",
+                                        "user-female": "user-female",
+                                        "user-follow": "user-follow",
+                                        "user-following": "user-following",
+                                        "user-unfollow": "user-unfollow",
+                                        "login": "login",
+                                        "logout": "logout",
+                                        "emotsmile": "emotsmile",
+                                        "phone": "phone",
+                                        "call-end": "call-end",
+                                        "call-in": "call-in",
+                                        "call-out": "call-out",
+                                        "map": "map",
+                                        "location-pin": "location-pin",
+                                        "direction": "direction",
+                                        "directions": "directions",
+                                        "compass": "compass",
+                                        "layers": "layers",
+                                        "menu": "menu",
+                                        "list": "list",
+                                        "options-vertical": "options-vertical",
+                                        "options": "options",
+                                        "arrow-down": "arrow-down",
+                                        "arrow-left": "arrow-left",
+                                        "arrow-right": "arrow-right",
+                                        "arrow-up": "arrow-up",
+                                        "arrow-up-circle": "arrow-up-circle",
+                                        "arrow-left-circle": "arrow-left-circle",
+                                        "arrow-right-circle": "arrow-right-circle",
+                                        "arrow-down-circle": "arrow-down-circle",
+                                        "check": "check",
+                                        "clock": "clock",
+                                        "plus": "plus",
+                                        "minus": "minus",
+                                        "close": "close",
+                                        "event": "event",
+                                        "exclamation": "exclamation",
+                                        "organization": "organization",
+                                        "trophy": "trophy",
+                                        "screen-smartphone": "screen-smartphone",
+                                        "screen-desktop": "screen-desktop",
+                                        "plane": "plane",
+                                        "notebook": "notebook",
+                                        "mustache": "mustache",
+                                        "mouse": "mouse",
+                                        "magnet": "magnet",
+                                        "energy": "energy",
+                                        "disc": "disc",
+                                        "cursor": "cursor",
+                                        "cursor-move": "cursor-move",
+                                        "crop": "crop",
+                                        "chemistry": "chemistry",
+                                        "speedometer": "speedometer",
+                                        "shield": "shield",
+                                        "screen-tablet": "screen-tablet",
+                                        "magic-wand": "magic-wand",
+                                        "hourglass": "hourglass",
+                                        "graduation": "graduation",
+                                        "ghost": "ghost",
+                                        "game-controller": "game-controller",
+                                        "fire": "fire",
+                                        "eyeglass": "eyeglass",
+                                        "envelope-open": "envelope-open",
+                                        "envelope-letter": "envelope-letter",
+                                        "bell": "bell",
+                                        "badge": "badge",
+                                        "anchor": "anchor",
+                                        "wallet": "wallet",
+                                        "vector": "vector",
+                                        "speech": "speech",
+                                        "puzzle": "puzzle",
+                                        "printer": "printer",
+                                        "present": "present",
+                                        "playlist": "playlist",
+                                        "pin": "pin",
+                                        "picture": "picture",
+                                        "handbag": "handbag",
+                                        "globe-alt": "globe-alt",
+                                        "globe": "globe",
+                                        "folder-alt": "folder-alt",
+                                        "folder": "folder",
+                                        "film": "film",
+                                        "feed": "feed",
+                                        "drop": "drop",
+                                        "drawer": "drawer",
+                                        "docs": "docs",
+                                        "doc": "doc",
+                                        "diamond": "diamond",
+                                        "cup": "cup",
+                                        "calculator": "calculator",
+                                        "bubbles": "bubbles",
+                                        "briefcase": "briefcase",
+                                        "book-open": "book-open",
+                                        "basket-loaded": "basket-loaded",
+                                        "basket": "basket",
+                                        "bag": "bag",
+                                        "action-undo": "action-undo",
+                                        "action-redo": "action-redo",
+                                        "wrench": "wrench",
+                                        "umbrella": "umbrella",
+                                        "trash": "trash",
+                                        "tag": "tag",
+                                        "support": "support",
+                                        "frame": "frame",
+                                        "size-fullscreen": "size-fullscreen",
+                                        "size-actual": "size-actual",
+                                        "shuffle": "shuffle",
+                                        "share-alt": "share-alt",
+                                        "share": "share",
+                                        "rocket": "rocket",
+                                        "question": "question",
+                                        "pie-chart": "pie-chart",
+                                        "pencil": "pencil",
+                                        "note": "note",
+                                        "loop": "loop",
+                                        "home": "home",
+                                        "grid": "grid",
+                                        "graph": "graph",
+                                        "microphone": "microphone",
+                                        "music-tone-alt": "music-tone-alt",
+                                        "music-tone": "music-tone",
+                                        "earphones-alt": "earphones-alt",
+                                        "earphones": "earphones",
+                                        "equalizer": "equalizer",
+                                        "like": "like",
+                                        "dislike": "dislike",
+                                        "control-start": "control-start",
+                                        "control-rewind": "control-rewind",
+                                        "control-play": "control-play",
+                                        "control-pause": "control-pause",
+                                        "control-forward": "control-forward",
+                                        "control-end": "control-end",
+                                        "volume-1": "volume-1",
+                                        "volume-2": "volume-2",
+                                        "volume-off": "volume-off",
+                                        "calendar": "calendar",
+                                        "bulb": "bulb",
+                                        "chart": "chart",
+                                        "ban": "ban",
+                                        "bubble": "bubble",
+                                        "camrecorder": "camrecorder",
+                                        "camera": "camera",
+                                        "cloud-download": "cloud-download",
+                                        "cloud-upload": "cloud-upload",
+                                        "envelope": "envelope",
+                                        "eye": "eye",
+                                        "flag": "flag",
+                                        "heart": "heart",
+                                        "info": "info",
+                                        "key": "key",
+                                        "link": "link",
+                                        "lock": "lock",
+                                        "lock-open": "lock-open",
+                                        "magnifier": "magnifier",
+                                        "magnifier-add": "magnifier-add",
+                                        "magnifier-remove": "magnifier-remove",
+                                        "paper-clip": "paper-clip",
+                                        "paper-plane": "paper-plane",
+                                        "power": "power",
+                                        "refresh": "refresh",
+                                        "reload": "reload",
+                                        "settings": "settings",
+                                        "star": "star",
+                                        "symbol-female": "symbol-female",
+                                        "symbol-male": "symbol-male",
+                                        "target": "target",
+                                        "credit-card": "credit-card",
+                                        "paypal": "paypal",
+                                        "social-tumblr": "social-tumblr",
+                                        "social-twitter": "social-twitter",
+                                        "social-facebook": "social-facebook",
+                                        "social-instagram": "social-instagram",
+                                        "social-linkedin": "social-linkedin",
+                                        "social-pinterest": "social-pinterest",
+                                        "social-github": "social-github",
+                                        "social-google": "social-google",
+                                        "social-reddit": "social-reddit",
+                                        "social-skype": "social-skype",
+                                        "social-dribbble": "social-dribbble",
+                                        "social-behance": "social-behance",
+                                        "social-foursqare": "social-foursqare",
+                                        "social-soundcloud": "social-soundcloud",
+                                        "social-spotify": "social-spotify",
+                                        "social-stumbleupon": "social-stumbleupon",
+                                        "social-youtube": "social-youtube",
+                                        "social-dropbox": "social-dropbox",
+                                        "social-vkontakte": "social-vkontakte",
+                                        "social-steam": "social-steam"
+                                    },
+                                    "default_value": "rocket",
+                                    "allow_null": 1,
+                                    "multiple": 0,
+                                    "ui": 1,
+                                    "ajax": 1,
+                                    "return_format": "value",
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_5f519072a7c54",
+                                    "label": "Awesome Icon",
+                                    "name": "icon_fa",
+                                    "type": "font-awesome",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5f519091a7c55",
+                                                "operator": "==",
+                                                "value": "Awesome Icon"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "icon_sets": [
+                                        "fas",
+                                        "far",
+                                        "fab"
+                                    ],
+                                    "custom_icon_set": "",
+                                    "default_label": "<i class=\"fab\"><\/i> accusoft",
+                                    "default_value": "",
+                                    "save_format": "class",
+                                    "allow_null": 1,
+                                    "show_preview": 0,
+                                    "enqueue_fa": 1,
+                                    "fa_live_preview": "",
+                                    "choices": []
+                                },
+                                {
+                                    "key": "field_5ea732289a925",
+                                    "label": "Label",
+                                    "name": "label",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5ed265a13476f",
+                                    "label": "Target",
+                                    "name": "target",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "Anchor Link": "Anchor Link",
+                                        "External Link": "External Link",
+                                        "Inner Page": "Inner Page",
+                                        "Inner Post": "Inner Post"
+                                    },
+                                    "default_value": "Inner Page",
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "ui": 1,
+                                    "ajax": 0,
+                                    "return_format": "value",
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_5ea732289a926",
+                                    "label": "URL",
+                                    "name": "url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5ed265a13476f",
+                                                "operator": "==",
+                                                "value": "Anchor Link"
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "field": "field_5ed265a13476f",
+                                                "operator": "==",
+                                                "value": "External Link"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "#contact",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5ed2662d34771",
+                                    "label": "Page",
+                                    "name": "page",
+                                    "type": "page_link",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5ed265a13476f",
+                                                "operator": "==",
+                                                "value": "Inner Page"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "page"
+                                    ],
+                                    "taxonomy": "",
+                                    "allow_null": 0,
+                                    "allow_archives": 0,
+                                    "multiple": 0
+                                },
+                                {
+                                    "key": "field_5ed2665a34772",
+                                    "label": "Post",
+                                    "name": "post",
+                                    "type": "page_link",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5ed265a13476f",
+                                                "operator": "==",
+                                                "value": "Inner Post"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "post"
+                                    ],
+                                    "taxonomy": "",
+                                    "allow_null": 0,
+                                    "allow_archives": 0,
+                                    "multiple": 0
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_5ed265063476e",
+                            "label": "Enable Button",
+                            "name": "enable_button",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 1,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_5f518d9093892",
+                            "label": "Button Icon Style",
+                            "name": "button_icon_style",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Line Icon": "Line Icon",
+                                "Awesome Icon": "Awesome Icon"
+                            },
+                            "allow_null": 0,
+                            "default_value": "Line Icon",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_5ed2646a58caf",
+                            "label": "Button Line Icon",
+                            "name": "button_icon",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "field": "field_5f518d9093892",
+                                        "operator": "==",
+                                        "value": "Line Icon"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "leverage-icon",
+                                "id": ""
+                            },
+                            "choices": {
+                                "user": "user",
+                                "people": "people",
+                                "user-female": "user-female",
+                                "user-follow": "user-follow",
+                                "user-following": "user-following",
+                                "user-unfollow": "user-unfollow",
+                                "login": "login",
+                                "logout": "logout",
+                                "emotsmile": "emotsmile",
+                                "phone": "phone",
+                                "call-end": "call-end",
+                                "call-in": "call-in",
+                                "call-out": "call-out",
+                                "map": "map",
+                                "location-pin": "location-pin",
+                                "direction": "direction",
+                                "directions": "directions",
+                                "compass": "compass",
+                                "layers": "layers",
+                                "menu": "menu",
+                                "list": "list",
+                                "options-vertical": "options-vertical",
+                                "options": "options",
+                                "arrow-down": "arrow-down",
+                                "arrow-left": "arrow-left",
+                                "arrow-right": "arrow-right",
+                                "arrow-up": "arrow-up",
+                                "arrow-up-circle": "arrow-up-circle",
+                                "arrow-left-circle": "arrow-left-circle",
+                                "arrow-right-circle": "arrow-right-circle",
+                                "arrow-down-circle": "arrow-down-circle",
+                                "check": "check",
+                                "clock": "clock",
+                                "plus": "plus",
+                                "minus": "minus",
+                                "close": "close",
+                                "event": "event",
+                                "exclamation": "exclamation",
+                                "organization": "organization",
+                                "trophy": "trophy",
+                                "screen-smartphone": "screen-smartphone",
+                                "screen-desktop": "screen-desktop",
+                                "plane": "plane",
+                                "notebook": "notebook",
+                                "mustache": "mustache",
+                                "mouse": "mouse",
+                                "magnet": "magnet",
+                                "energy": "energy",
+                                "disc": "disc",
+                                "cursor": "cursor",
+                                "cursor-move": "cursor-move",
+                                "crop": "crop",
+                                "chemistry": "chemistry",
+                                "speedometer": "speedometer",
+                                "shield": "shield",
+                                "screen-tablet": "screen-tablet",
+                                "magic-wand": "magic-wand",
+                                "hourglass": "hourglass",
+                                "graduation": "graduation",
+                                "ghost": "ghost",
+                                "game-controller": "game-controller",
+                                "fire": "fire",
+                                "eyeglass": "eyeglass",
+                                "envelope-open": "envelope-open",
+                                "envelope-letter": "envelope-letter",
+                                "bell": "bell",
+                                "badge": "badge",
+                                "anchor": "anchor",
+                                "wallet": "wallet",
+                                "vector": "vector",
+                                "speech": "speech",
+                                "puzzle": "puzzle",
+                                "printer": "printer",
+                                "present": "present",
+                                "playlist": "playlist",
+                                "pin": "pin",
+                                "picture": "picture",
+                                "handbag": "handbag",
+                                "globe-alt": "globe-alt",
+                                "globe": "globe",
+                                "folder-alt": "folder-alt",
+                                "folder": "folder",
+                                "film": "film",
+                                "feed": "feed",
+                                "drop": "drop",
+                                "drawer": "drawer",
+                                "docs": "docs",
+                                "doc": "doc",
+                                "diamond": "diamond",
+                                "cup": "cup",
+                                "calculator": "calculator",
+                                "bubbles": "bubbles",
+                                "briefcase": "briefcase",
+                                "book-open": "book-open",
+                                "basket-loaded": "basket-loaded",
+                                "basket": "basket",
+                                "bag": "bag",
+                                "action-undo": "action-undo",
+                                "action-redo": "action-redo",
+                                "wrench": "wrench",
+                                "umbrella": "umbrella",
+                                "trash": "trash",
+                                "tag": "tag",
+                                "support": "support",
+                                "frame": "frame",
+                                "size-fullscreen": "size-fullscreen",
+                                "size-actual": "size-actual",
+                                "shuffle": "shuffle",
+                                "share-alt": "share-alt",
+                                "share": "share",
+                                "rocket": "rocket",
+                                "question": "question",
+                                "pie-chart": "pie-chart",
+                                "pencil": "pencil",
+                                "note": "note",
+                                "loop": "loop",
+                                "home": "home",
+                                "grid": "grid",
+                                "graph": "graph",
+                                "microphone": "microphone",
+                                "music-tone-alt": "music-tone-alt",
+                                "music-tone": "music-tone",
+                                "earphones-alt": "earphones-alt",
+                                "earphones": "earphones",
+                                "equalizer": "equalizer",
+                                "like": "like",
+                                "dislike": "dislike",
+                                "control-start": "control-start",
+                                "control-rewind": "control-rewind",
+                                "control-play": "control-play",
+                                "control-pause": "control-pause",
+                                "control-forward": "control-forward",
+                                "control-end": "control-end",
+                                "volume-1": "volume-1",
+                                "volume-2": "volume-2",
+                                "volume-off": "volume-off",
+                                "calendar": "calendar",
+                                "bulb": "bulb",
+                                "chart": "chart",
+                                "ban": "ban",
+                                "bubble": "bubble",
+                                "camrecorder": "camrecorder",
+                                "camera": "camera",
+                                "cloud-download": "cloud-download",
+                                "cloud-upload": "cloud-upload",
+                                "envelope": "envelope",
+                                "eye": "eye",
+                                "flag": "flag",
+                                "heart": "heart",
+                                "info": "info",
+                                "key": "key",
+                                "link": "link",
+                                "lock": "lock",
+                                "lock-open": "lock-open",
+                                "magnifier": "magnifier",
+                                "magnifier-add": "magnifier-add",
+                                "magnifier-remove": "magnifier-remove",
+                                "paper-clip": "paper-clip",
+                                "paper-plane": "paper-plane",
+                                "power": "power",
+                                "refresh": "refresh",
+                                "reload": "reload",
+                                "settings": "settings",
+                                "star": "star",
+                                "symbol-female": "symbol-female",
+                                "symbol-male": "symbol-male",
+                                "target": "target",
+                                "credit-card": "credit-card",
+                                "paypal": "paypal",
+                                "social-tumblr": "social-tumblr",
+                                "social-twitter": "social-twitter",
+                                "social-facebook": "social-facebook",
+                                "social-instagram": "social-instagram",
+                                "social-linkedin": "social-linkedin",
+                                "social-pinterest": "social-pinterest",
+                                "social-github": "social-github",
+                                "social-google": "social-google",
+                                "social-reddit": "social-reddit",
+                                "social-skype": "social-skype",
+                                "social-dribbble": "social-dribbble",
+                                "social-behance": "social-behance",
+                                "social-foursqare": "social-foursqare",
+                                "social-soundcloud": "social-soundcloud",
+                                "social-spotify": "social-spotify",
+                                "social-stumbleupon": "social-stumbleupon",
+                                "social-youtube": "social-youtube",
+                                "social-dropbox": "social-dropbox",
+                                "social-vkontakte": "social-vkontakte",
+                                "social-steam": "social-steam"
+                            },
+                            "default_value": "rocket",
+                            "allow_null": 1,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5f518e5193893",
+                            "label": "Button Awesome Icon",
+                            "name": "button_icon_fa",
+                            "type": "font-awesome",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "field": "field_5f518d9093892",
+                                        "operator": "==",
+                                        "value": "Awesome Icon"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "icon_sets": [
+                                "fas",
+                                "far",
+                                "fab"
+                            ],
+                            "custom_icon_set": "",
+                            "default_label": "<i class=\"fab\"><\/i> accusoft",
+                            "default_value": "",
+                            "save_format": "class",
+                            "allow_null": 1,
+                            "show_preview": 0,
+                            "enqueue_fa": 1,
+                            "fa_live_preview": "",
+                            "choices": []
+                        },
+                        {
+                            "key": "field_5ed2646358cae",
+                            "label": "Button Label",
+                            "name": "button_label",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "CONTACT US",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ed2646d58cb0",
+                            "label": "Button Target",
+                            "name": "button_target",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Anchor Link": "Anchor Link",
+                                "External Link": "External Link",
+                                "Inner Page": "Inner Page",
+                                "Inner Post": "Inner Post"
+                            },
+                            "default_value": "Inner Page",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5ed2647358cb1",
+                            "label": "Button URL",
+                            "name": "button_url",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "field": "field_5ed2646d58cb0",
+                                        "operator": "==",
+                                        "value": "Anchor Link"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "field": "field_5ed2646d58cb0",
+                                        "operator": "==",
+                                        "value": "External Link"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "#contact",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ed2647758cb2",
+                            "label": "Button Page",
+                            "name": "button_page",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "field": "field_5ed2646d58cb0",
+                                        "operator": "==",
+                                        "value": "Inner Page"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "page"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "allow_archives": 0,
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_5ed2674734775",
+                            "label": "Button Post",
+                            "name": "button_post",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5ed265063476e",
+                                        "operator": "==",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "field": "field_5ed2646d58cb0",
+                                        "operator": "==",
+                                        "value": "Inner Post"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33.3333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "post"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "allow_archives": 0,
+                            "multiple": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5f5c1121d3b7a": {
+                    "key": "layout_5f5c1121d3b7a",
+                    "name": "pinned_tags",
+                    "label": "Pinned Tags",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f5c1121d3b7b",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5f5c1121d3b7c",
+                            "label": "Tags",
+                            "name": "tags",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "field_5ea732289a925",
+                            "min": 1,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Tag",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5f5c1121d3b80",
+                                    "label": "Label",
+                                    "name": "label",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5f5c1121d3b81",
+                                    "label": "Target",
+                                    "name": "target",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "Anchor Link": "Anchor Link",
+                                        "External Link": "External Link",
+                                        "Inner Page": "Inner Page",
+                                        "Inner Post": "Inner Post"
+                                    },
+                                    "default_value": "Tag",
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "ui": 1,
+                                    "ajax": 0,
+                                    "return_format": "value",
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_5f5c1121d3b82",
+                                    "label": "URL",
+                                    "name": "url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5f5c1121d3b81",
+                                                "operator": "==",
+                                                "value": "Anchor Link"
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "field": "field_5f5c1121d3b81",
+                                                "operator": "==",
+                                                "value": "External Link"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "#contact",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5f5c1121d3b83",
+                                    "label": "Page",
+                                    "name": "page",
+                                    "type": "page_link",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5f5c1121d3b81",
+                                                "operator": "==",
+                                                "value": "Inner Page"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "page"
+                                    ],
+                                    "taxonomy": "",
+                                    "allow_null": 0,
+                                    "allow_archives": 0,
+                                    "multiple": 0
+                                },
+                                {
+                                    "key": "field_5f5c1121d3b84",
+                                    "label": "Post",
+                                    "name": "post",
+                                    "type": "page_link",
+                                    "instructions": "",
+                                    "required": 1,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5f5c1121d3b81",
+                                                "operator": "==",
+                                                "value": "Inner Post"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "post"
+                                    ],
+                                    "taxonomy": "",
+                                    "allow_null": 0,
+                                    "allow_archives": 0,
+                                    "multiple": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5ea8b4aef3b50": {
+                    "key": "layout_5ea8b4aef3b50",
+                    "name": "custom",
+                    "label": "Custom Content",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ed1801c8aba9",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ea8b4aef3b55",
+                            "label": "Content",
+                            "name": "custom",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Column",
+            "min": "",
+            "max": ""
+        },
+        {
+            "key": "field_5ea733779ea3e",
+            "label": "Copyright",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8982ce17b5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea733849ea3f",
+            "label": "Left Text",
+            "name": "copyright_left_text",
+            "type": "wysiwyg",
+            "instructions": "Here you can add a text that will be positioned to the left at the bottom of the Footer.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8982ce17b5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Built with WordPress.",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ea733c59ea40",
+            "label": "Right Text",
+            "name": "copyright_right_text",
+            "type": "wysiwyg",
+            "instructions": "Here you can add a text that will be positioned to the right at the bottom of the Footer.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea8982ce17b5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "© 2021 Leverage is Proudly Powered by <a href=\"https:\/\/themeforest.net\/user\/codingsdev\" target=\"_blank\">Codings<\/a>.",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-footer"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1599869638
+}

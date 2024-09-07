@@ -1,0 +1,104 @@
+{
+    "key": "group_5e9fc375783d9",
+    "title": "Branding",
+    "fields": [
+        {
+            "key": "field_5e9fc37e24254",
+            "label": "Site Identity",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p><a href=\"customize.php\" target=\"_blank\"><b>Click here<\/b><\/a> to customize the <code>Logo<\/code>,  <code>Site Title<\/code>, <code>Tagline<\/code> and <code>Site Icon<\/code>.<\/p><\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ec87dd10c31c",
+            "label": "Logo Height",
+            "name": "logo_height",
+            "type": "range",
+            "instructions": "Adjust the height of the Logo. The width will be set automatically.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 35,
+            "min": 5,
+            "max": 150,
+            "step": 1,
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_5eaa41fe8e278",
+            "label": "Logo Filter",
+            "name": "logo_filter",
+            "type": "true_false",
+            "instructions": "Enable this option for the Logo to be 100% white. This is useful when the Navbar is dark. You can set this up conditionally when editing your page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f40171d4292f",
+            "label": "Logo Responsive",
+            "name": "logo_responsive",
+            "type": "image",
+            "instructions": "Here you can add a different Logo for the mobile version. Leave empty to keep the default Logo.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "png, jpg, jpeg, svg"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-branding"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1599606749
+}

@@ -1,0 +1,202 @@
+#services-section {
+  padding: 80px 15px;
+  background-color: white;
+  
+}
+#services-section .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#services-section .title .circle {
+  background: var(--gradient);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 23px;
+}
+#services-section .title h1 {
+  position: relative;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #16171b;
+  z-index: 1;
+  letter-spacing: 4px;
+}
+#services-section .title-line {
+  font-size: 2.5rem;
+  padding: 0 0 1rem 0;
+}
+
+#services-section .services-container .card-text h2 {
+  position: relative;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 500;
+  max-width: 1000px;
+  color: white;
+  z-index: 1;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+#services-section .services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+#services-section .services-container .box {
+  background: rgba(255, 255, 255, 0);
+  padding: 40px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+#services-section .services-container .box:hover {
+  background: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+}
+
+#services-section .services-container .box .fas {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#services-section .services-container .box h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+#services-section .services-container .box p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #838282;
+}
+/* NEW */
+.card {
+  background: blur(255);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: rgba(255, 255, 255, 0.2);
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* width: 20rem; */
+  /* height: 400px; */
+  width:20rem;
+  height: 300px;
+
+  border-radius: 18px;
+  background: white;
+  text-align: center;
+  transition: 0.5 ease;
+  cursor: pointer;
+  margin: 30px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  position: relative;
+}
+
+#services-section .services-container .card i {
+    font-size: 2rem;
+}
+
+#services-section .services-container .blue{
+  background: var(--color-primary-6);
+opacity: 0.8;
+}
+
+#services-section .services-container  .red{
+  background: var(--color-primary-4);
+opacity: 0.8;
+}
+#services-section .services-container .aqua{
+  background: var(--color-primary-3);
+opacity: 0.8;
+}
+#services-section .services-container .yellow{
+  background: var(--color-primary-5);
+opacity: 0.8;
+}
+#services-section .services-container .purple{
+  background: var(--color-primary-9);
+opacity: 0.8;
+}
+#services-section .services-container  .green{
+  background: var(--color-primary-7);
+opacity: 0.8;
+}
+.card-text .card-title {
+  padding: 1rem 0 2rem 0;
+}
+.card-text {
+  grid-area: text;
+  margin: 25px;
+  transform: translateZ(30px);
+  color: white;
+  position: absolute;
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-text h2 {
+  font-weight: 600;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  animation: none;
+}
+.card-text p {
+  font-size: 18px;
+  padding: 20px 0 10px 0;
+  font-family: "Poppins", sans-serif;
+  animation: none;
+}
+
+/* Tablets */
+@media only screen and (max-width: 1060px) {
+  #services-section .services-container {
+    grid-template-columns: 100%;
+    align-items: center;
+  
+    
+  }
+  #services-section .services-container .card {
+    margin: auto;
+  }
+  #services-section .services-container .box {
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+    
+  }
+}
+/* Phones */
+@media only screen and (max-width: 767px) {
+  /* #services-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: 30px;
+  } */
+  #services-section .title-line {
+    font-size: 2.5rem;
+    padding: 0 0 1rem 0;
+  }
+}

@@ -1,0 +1,2153 @@
+{
+    "key": "group_5e9fca3667b07",
+    "title": "Header & Menu",
+    "fields": [
+        {
+            "key": "field_5f3fecfdd372f",
+            "label": "Options",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f3ff07978bed",
+            "label": "Navbar Items",
+            "name": "header_default",
+            "type": "group",
+            "instructions": "Enable the items in the Navbar that should be visible in the Desktop Version. (Screens larger than 576px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "sub_fields": [
+                {
+                    "key": "field_5e9fca449c978",
+                    "label": "Search Button",
+                    "name": "search_icon",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5e9fcb9655c83",
+                    "label": "Social Networks",
+                    "name": "social_networks",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5ea05caea1096",
+                    "label": "Call to Action",
+                    "name": "call_to_action",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5ea06a0330018",
+                    "label": "Custom Action",
+                    "name": "custom_action",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f3fef650065d",
+                    "label": "Shop Cart",
+                    "name": "shop_cart",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5f3ff2b2b74fa",
+            "label": "Responsive Menu",
+            "name": "header_responsive",
+            "type": "group",
+            "instructions": "Enable the items in the Menu that should be visible in the Mobile Version. (Screens smaller than 576px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "sub_fields": [
+                {
+                    "key": "field_5f3ff2b2b74fb",
+                    "label": "Search Button",
+                    "name": "search_icon",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f3ff2b2b74fd",
+                    "label": "Social Networks",
+                    "name": "social_networks",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f3ff2b2b74fc",
+                    "label": "Call to Action",
+                    "name": "call_to_action",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f3ff2b2b74fe",
+                    "label": "Custom Action",
+                    "name": "custom_action",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f3ff2b2b74ff",
+                    "label": "Shop Cart",
+                    "name": "shop_cart",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5f13938d1112d",
+            "label": "Layout",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f13939b1112e",
+            "label": "Container",
+            "name": "header_container",
+            "type": "button_group",
+            "instructions": "Choose the width of the Navbar Container.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "smaller": "Smaller",
+                "default": "Default",
+                "full-grid": "Full"
+            },
+            "allow_null": 0,
+            "default_value": "default",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5f13943e1112f",
+            "label": "Vertical Spacing",
+            "name": "header_vertical_spacing",
+            "type": "range",
+            "instructions": "Choose the Vertical Spacing of the Navbar.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 20,
+            "min": 0,
+            "max": 50,
+            "step": 5,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5eefc2d9f44bf",
+            "label": "Navbar Mode",
+            "name": "navbar_mode",
+            "type": "button_group",
+            "instructions": "Choose how the Navbar should behave when scrolling the page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "navbar-no-fixed": "Never Fixed",
+                "navbar-flexible": "Flexible Fixed",
+                "navbar-fixed": "Aways Fixed"
+            },
+            "allow_null": 0,
+            "default_value": "navbar-flexible",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5eac267913e19",
+            "label": "Search",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fca449c978",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f4e9e6316fef",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fca449c978",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Enter the texts for the <code>Search Section<\/code> of the website, which is displayed when the <code>Search Button<\/code> on the Navbar is clicked.<\/p><\/div>",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5eb2257f0ad1d",
+            "label": "Title",
+            "name": "search_title",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fca449c978",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "What are you looking for?",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5eb2260a0ad1e",
+            "label": "Description",
+            "name": "search_description",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fca449c978",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Type a few words to find the available content.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5edd1847966cd",
+            "label": "Search Button Label",
+            "name": "search_button_label",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fca449c978",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fb",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "SEARCH",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5eac271e13e1c",
+            "label": "Social Networks",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fcb9655c83",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fd",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e9fcfb4bdd86",
+            "label": "Social Icons",
+            "name": "social_networks",
+            "type": "flexible_content",
+            "instructions": "Here you can add Social Network Icons for the Navbar. Add a Custom Item for more freedom.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fcb9655c83",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fd",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5e9fcfc0f3a91": {
+                    "key": "layout_5e9fcfc0f3a91",
+                    "name": "facebook",
+                    "label": "Facebook",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9fcfdfbdd87",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5e9fd00fbdd88": {
+                    "key": "layout_5e9fd00fbdd88",
+                    "name": "instagram",
+                    "label": "Instagram",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9fd00fbdd89",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea0588eb173a": {
+                    "key": "layout_5ea0588eb173a",
+                    "name": "twitter",
+                    "label": "Twitter",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea0588eb173b",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea058f1b173c": {
+                    "key": "layout_5ea058f1b173c",
+                    "name": "youtube",
+                    "label": "Youtube",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea058f1b173d",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05903b173e": {
+                    "key": "layout_5ea05903b173e",
+                    "name": "linkedin",
+                    "label": "Linkedin",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea05903b173f",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05a0cb1744": {
+                    "key": "layout_5ea05a0cb1744",
+                    "name": "pinterest",
+                    "label": "Pinterest",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea05a0cb1745",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05916b1740": {
+                    "key": "layout_5ea05916b1740",
+                    "name": "tumblr",
+                    "label": "Tumblr",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea05916b1741",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea0591fb1742": {
+                    "key": "layout_5ea0591fb1742",
+                    "name": "dribbble",
+                    "label": "Dribbble",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea0591fb1743",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5f5122264869c": {
+                    "key": "layout_5f5122264869c",
+                    "name": "custom",
+                    "label": "Custom",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f515ab50c2dc",
+                            "label": "Icon Style",
+                            "name": "icon_style",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Line Icon": "Line Icon",
+                                "Awesome Icon": "Awesome Icon"
+                            },
+                            "allow_null": 0,
+                            "default_value": "Line Icon",
+                            "layout": "horizontal",
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_5f5138b56ad47",
+                            "label": "Line Icon",
+                            "name": "icon",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5f515ab50c2dc",
+                                        "operator": "==",
+                                        "value": "Line Icon"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "30",
+                                "class": "leverage-icon",
+                                "id": ""
+                            },
+                            "choices": {
+                                "user": "user",
+                                "people": "people",
+                                "user-female": "user-female",
+                                "user-follow": "user-follow",
+                                "user-following": "user-following",
+                                "user-unfollow": "user-unfollow",
+                                "login": "login",
+                                "logout": "logout",
+                                "emotsmile": "emotsmile",
+                                "phone": "phone",
+                                "call-end": "call-end",
+                                "call-in": "call-in",
+                                "call-out": "call-out",
+                                "map": "map",
+                                "location-pin": "location-pin",
+                                "direction": "direction",
+                                "directions": "directions",
+                                "compass": "compass",
+                                "layers": "layers",
+                                "menu": "menu",
+                                "list": "list",
+                                "options-vertical": "options-vertical",
+                                "options": "options",
+                                "arrow-down": "arrow-down",
+                                "arrow-left": "arrow-left",
+                                "arrow-right": "arrow-right",
+                                "arrow-up": "arrow-up",
+                                "arrow-up-circle": "arrow-up-circle",
+                                "arrow-left-circle": "arrow-left-circle",
+                                "arrow-right-circle": "arrow-right-circle",
+                                "arrow-down-circle": "arrow-down-circle",
+                                "check": "check",
+                                "clock": "clock",
+                                "plus": "plus",
+                                "minus": "minus",
+                                "close": "close",
+                                "event": "event",
+                                "exclamation": "exclamation",
+                                "organization": "organization",
+                                "trophy": "trophy",
+                                "screen-smartphone": "screen-smartphone",
+                                "screen-desktop": "screen-desktop",
+                                "plane": "plane",
+                                "notebook": "notebook",
+                                "mustache": "mustache",
+                                "mouse": "mouse",
+                                "magnet": "magnet",
+                                "energy": "energy",
+                                "disc": "disc",
+                                "cursor": "cursor",
+                                "cursor-move": "cursor-move",
+                                "crop": "crop",
+                                "chemistry": "chemistry",
+                                "speedometer": "speedometer",
+                                "shield": "shield",
+                                "screen-tablet": "screen-tablet",
+                                "magic-wand": "magic-wand",
+                                "hourglass": "hourglass",
+                                "graduation": "graduation",
+                                "ghost": "ghost",
+                                "game-controller": "game-controller",
+                                "fire": "fire",
+                                "eyeglass": "eyeglass",
+                                "envelope-open": "envelope-open",
+                                "envelope-letter": "envelope-letter",
+                                "bell": "bell",
+                                "badge": "badge",
+                                "anchor": "anchor",
+                                "wallet": "wallet",
+                                "vector": "vector",
+                                "speech": "speech",
+                                "puzzle": "puzzle",
+                                "printer": "printer",
+                                "present": "present",
+                                "playlist": "playlist",
+                                "pin": "pin",
+                                "picture": "picture",
+                                "handbag": "handbag",
+                                "globe-alt": "globe-alt",
+                                "globe": "globe",
+                                "folder-alt": "folder-alt",
+                                "folder": "folder",
+                                "film": "film",
+                                "feed": "feed",
+                                "drop": "drop",
+                                "drawer": "drawer",
+                                "docs": "docs",
+                                "doc": "doc",
+                                "diamond": "diamond",
+                                "cup": "cup",
+                                "calculator": "calculator",
+                                "bubbles": "bubbles",
+                                "briefcase": "briefcase",
+                                "book-open": "book-open",
+                                "basket-loaded": "basket-loaded",
+                                "basket": "basket",
+                                "bag": "bag",
+                                "action-undo": "action-undo",
+                                "action-redo": "action-redo",
+                                "wrench": "wrench",
+                                "umbrella": "umbrella",
+                                "trash": "trash",
+                                "tag": "tag",
+                                "support": "support",
+                                "frame": "frame",
+                                "size-fullscreen": "size-fullscreen",
+                                "size-actual": "size-actual",
+                                "shuffle": "shuffle",
+                                "share-alt": "share-alt",
+                                "share": "share",
+                                "rocket": "rocket",
+                                "question": "question",
+                                "pie-chart": "pie-chart",
+                                "pencil": "pencil",
+                                "note": "note",
+                                "loop": "loop",
+                                "home": "home",
+                                "grid": "grid",
+                                "graph": "graph",
+                                "microphone": "microphone",
+                                "music-tone-alt": "music-tone-alt",
+                                "music-tone": "music-tone",
+                                "earphones-alt": "earphones-alt",
+                                "earphones": "earphones",
+                                "equalizer": "equalizer",
+                                "like": "like",
+                                "dislike": "dislike",
+                                "control-start": "control-start",
+                                "control-rewind": "control-rewind",
+                                "control-play": "control-play",
+                                "control-pause": "control-pause",
+                                "control-forward": "control-forward",
+                                "control-end": "control-end",
+                                "volume-1": "volume-1",
+                                "volume-2": "volume-2",
+                                "volume-off": "volume-off",
+                                "calendar": "calendar",
+                                "bulb": "bulb",
+                                "chart": "chart",
+                                "ban": "ban",
+                                "bubble": "bubble",
+                                "camrecorder": "camrecorder",
+                                "camera": "camera",
+                                "cloud-download": "cloud-download",
+                                "cloud-upload": "cloud-upload",
+                                "envelope": "envelope",
+                                "eye": "eye",
+                                "flag": "flag",
+                                "heart": "heart",
+                                "info": "info",
+                                "key": "key",
+                                "link": "link",
+                                "lock": "lock",
+                                "lock-open": "lock-open",
+                                "magnifier": "magnifier",
+                                "magnifier-add": "magnifier-add",
+                                "magnifier-remove": "magnifier-remove",
+                                "paper-clip": "paper-clip",
+                                "paper-plane": "paper-plane",
+                                "power": "power",
+                                "refresh": "refresh",
+                                "reload": "reload",
+                                "settings": "settings",
+                                "star": "star",
+                                "symbol-female": "symbol-female",
+                                "symbol-male": "symbol-male",
+                                "target": "target",
+                                "credit-card": "credit-card",
+                                "paypal": "paypal",
+                                "social-tumblr": "social-tumblr",
+                                "social-twitter": "social-twitter",
+                                "social-facebook": "social-facebook",
+                                "social-instagram": "social-instagram",
+                                "social-linkedin": "social-linkedin",
+                                "social-pinterest": "social-pinterest",
+                                "social-github": "social-github",
+                                "social-google": "social-google",
+                                "social-reddit": "social-reddit",
+                                "social-skype": "social-skype",
+                                "social-dribbble": "social-dribbble",
+                                "social-behance": "social-behance",
+                                "social-foursqare": "social-foursqare",
+                                "social-soundcloud": "social-soundcloud",
+                                "social-spotify": "social-spotify",
+                                "social-stumbleupon": "social-stumbleupon",
+                                "social-youtube": "social-youtube",
+                                "social-dropbox": "social-dropbox",
+                                "social-vkontakte": "social-vkontakte",
+                                "social-steam": "social-steam"
+                            },
+                            "default_value": "rocket",
+                            "allow_null": 1,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 1,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5f515aa20c2db",
+                            "label": "Awesome Icon",
+                            "name": "icon_fa",
+                            "type": "font-awesome",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5f515ab50c2dc",
+                                        "operator": "==",
+                                        "value": "Awesome Icon"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "icon_sets": [
+                                "fas",
+                                "far",
+                                "fab"
+                            ],
+                            "custom_icon_set": "",
+                            "default_label": "<i class=\"fab\"><\/i> accusoft",
+                            "default_value": "",
+                            "save_format": "class",
+                            "allow_null": 1,
+                            "show_preview": 0,
+                            "enqueue_fa": 1,
+                            "fa_live_preview": "",
+                            "choices": []
+                        },
+                        {
+                            "key": "field_5f5123fabf6eb",
+                            "label": "URL",
+                            "name": "url",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "40",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add New",
+            "min": "",
+            "max": ""
+        },
+        {
+            "key": "field_5eac268f13e1a",
+            "label": "Call to Action",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fc",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f4e9d7fe96e1",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fc",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Here you can configure a <code>Primary Button<\/code> for the Navbar. Usually used to take the contact page.<\/p><\/div>",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea05d65a1097",
+            "label": "Label",
+            "name": "button_label",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fc",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "CONTACT US",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f515de8fa4ae",
+            "label": "Icon Style",
+            "name": "button_icon_style",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fc",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Line Icon": "Line Icon",
+                "Awesome Icon": "Awesome Icon"
+            },
+            "allow_null": 0,
+            "default_value": "Line Icon",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ea0682dc310d",
+            "label": "Line Icon",
+            "name": "button_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f515de8fa4ae",
+                        "operator": "==",
+                        "value": "Line Icon"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "leverage-icon",
+                "id": ""
+            },
+            "choices": {
+                "user": "user",
+                "people": "people",
+                "user-female": "user-female",
+                "user-follow": "user-follow",
+                "user-following": "user-following",
+                "user-unfollow": "user-unfollow",
+                "login": "login",
+                "logout": "logout",
+                "emotsmile": "emotsmile",
+                "phone": "phone",
+                "call-end": "call-end",
+                "call-in": "call-in",
+                "call-out": "call-out",
+                "map": "map",
+                "location-pin": "location-pin",
+                "direction": "direction",
+                "directions": "directions",
+                "compass": "compass",
+                "layers": "layers",
+                "menu": "menu",
+                "list": "list",
+                "options-vertical": "options-vertical",
+                "options": "options",
+                "arrow-down": "arrow-down",
+                "arrow-left": "arrow-left",
+                "arrow-right": "arrow-right",
+                "arrow-up": "arrow-up",
+                "arrow-up-circle": "arrow-up-circle",
+                "arrow-left-circle": "arrow-left-circle",
+                "arrow-right-circle": "arrow-right-circle",
+                "arrow-down-circle": "arrow-down-circle",
+                "check": "check",
+                "clock": "clock",
+                "plus": "plus",
+                "minus": "minus",
+                "close": "close",
+                "event": "event",
+                "exclamation": "exclamation",
+                "organization": "organization",
+                "trophy": "trophy",
+                "screen-smartphone": "screen-smartphone",
+                "screen-desktop": "screen-desktop",
+                "plane": "plane",
+                "notebook": "notebook",
+                "mustache": "mustache",
+                "mouse": "mouse",
+                "magnet": "magnet",
+                "energy": "energy",
+                "disc": "disc",
+                "cursor": "cursor",
+                "cursor-move": "cursor-move",
+                "crop": "crop",
+                "chemistry": "chemistry",
+                "speedometer": "speedometer",
+                "shield": "shield",
+                "screen-tablet": "screen-tablet",
+                "magic-wand": "magic-wand",
+                "hourglass": "hourglass",
+                "graduation": "graduation",
+                "ghost": "ghost",
+                "game-controller": "game-controller",
+                "fire": "fire",
+                "eyeglass": "eyeglass",
+                "envelope-open": "envelope-open",
+                "envelope-letter": "envelope-letter",
+                "bell": "bell",
+                "badge": "badge",
+                "anchor": "anchor",
+                "wallet": "wallet",
+                "vector": "vector",
+                "speech": "speech",
+                "puzzle": "puzzle",
+                "printer": "printer",
+                "present": "present",
+                "playlist": "playlist",
+                "pin": "pin",
+                "picture": "picture",
+                "handbag": "handbag",
+                "globe-alt": "globe-alt",
+                "globe": "globe",
+                "folder-alt": "folder-alt",
+                "folder": "folder",
+                "film": "film",
+                "feed": "feed",
+                "drop": "drop",
+                "drawer": "drawer",
+                "docs": "docs",
+                "doc": "doc",
+                "diamond": "diamond",
+                "cup": "cup",
+                "calculator": "calculator",
+                "bubbles": "bubbles",
+                "briefcase": "briefcase",
+                "book-open": "book-open",
+                "basket-loaded": "basket-loaded",
+                "basket": "basket",
+                "bag": "bag",
+                "action-undo": "action-undo",
+                "action-redo": "action-redo",
+                "wrench": "wrench",
+                "umbrella": "umbrella",
+                "trash": "trash",
+                "tag": "tag",
+                "support": "support",
+                "frame": "frame",
+                "size-fullscreen": "size-fullscreen",
+                "size-actual": "size-actual",
+                "shuffle": "shuffle",
+                "share-alt": "share-alt",
+                "share": "share",
+                "rocket": "rocket",
+                "question": "question",
+                "pie-chart": "pie-chart",
+                "pencil": "pencil",
+                "note": "note",
+                "loop": "loop",
+                "home": "home",
+                "grid": "grid",
+                "graph": "graph",
+                "microphone": "microphone",
+                "music-tone-alt": "music-tone-alt",
+                "music-tone": "music-tone",
+                "earphones-alt": "earphones-alt",
+                "earphones": "earphones",
+                "equalizer": "equalizer",
+                "like": "like",
+                "dislike": "dislike",
+                "control-start": "control-start",
+                "control-rewind": "control-rewind",
+                "control-play": "control-play",
+                "control-pause": "control-pause",
+                "control-forward": "control-forward",
+                "control-end": "control-end",
+                "volume-1": "volume-1",
+                "volume-2": "volume-2",
+                "volume-off": "volume-off",
+                "calendar": "calendar",
+                "bulb": "bulb",
+                "chart": "chart",
+                "ban": "ban",
+                "bubble": "bubble",
+                "camrecorder": "camrecorder",
+                "camera": "camera",
+                "cloud-download": "cloud-download",
+                "cloud-upload": "cloud-upload",
+                "envelope": "envelope",
+                "eye": "eye",
+                "flag": "flag",
+                "heart": "heart",
+                "info": "info",
+                "key": "key",
+                "link": "link",
+                "lock": "lock",
+                "lock-open": "lock-open",
+                "magnifier": "magnifier",
+                "magnifier-add": "magnifier-add",
+                "magnifier-remove": "magnifier-remove",
+                "paper-clip": "paper-clip",
+                "paper-plane": "paper-plane",
+                "power": "power",
+                "refresh": "refresh",
+                "reload": "reload",
+                "settings": "settings",
+                "star": "star",
+                "symbol-female": "symbol-female",
+                "symbol-male": "symbol-male",
+                "target": "target",
+                "credit-card": "credit-card",
+                "paypal": "paypal",
+                "social-tumblr": "social-tumblr",
+                "social-twitter": "social-twitter",
+                "social-facebook": "social-facebook",
+                "social-instagram": "social-instagram",
+                "social-linkedin": "social-linkedin",
+                "social-pinterest": "social-pinterest",
+                "social-github": "social-github",
+                "social-google": "social-google",
+                "social-reddit": "social-reddit",
+                "social-skype": "social-skype",
+                "social-dribbble": "social-dribbble",
+                "social-behance": "social-behance",
+                "social-foursqare": "social-foursqare",
+                "social-soundcloud": "social-soundcloud",
+                "social-spotify": "social-spotify",
+                "social-stumbleupon": "social-stumbleupon",
+                "social-youtube": "social-youtube",
+                "social-dropbox": "social-dropbox",
+                "social-vkontakte": "social-vkontakte",
+                "social-steam": "social-steam"
+            },
+            "default_value": "rocket",
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f515de5fa4ad",
+            "label": "Awesome Icon",
+            "name": "button_icon_fa",
+            "type": "font-awesome",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f515de8fa4ae",
+                        "operator": "==",
+                        "value": "Awesome Icon"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "icon_sets": [
+                "fas",
+                "far",
+                "fab"
+            ],
+            "custom_icon_set": "",
+            "default_label": "<i class=\"fab\"><\/i> accusoft",
+            "default_value": "",
+            "save_format": "class",
+            "allow_null": 1,
+            "show_preview": 0,
+            "enqueue_fa": 1,
+            "fa_live_preview": "",
+            "choices": []
+        },
+        {
+            "key": "field_5ea060d16d0d1",
+            "label": "Target",
+            "name": "button_target",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fc",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Anchor Link": "Anchor Link",
+                "External Link": "External Link",
+                "Inner Page": "Inner Page",
+                "Inner Post": "Inner Post"
+            },
+            "default_value": "Inner Page",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea05d8ca1098",
+            "label": "URL",
+            "name": "button_url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fc",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#contact",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea305c41d83a",
+            "label": "Page",
+            "name": "button_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "Inner Page"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ea305cb1d83b",
+            "label": "Post",
+            "name": "button_post",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "Inner Post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5eac26a113e1b",
+            "label": "Custom Action",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fe",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f4e9fd201c2c",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fe",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Here you can configure a <code>Custom Icon<\/code> for the Navbar. Usually used to take the external login page.<\/p><\/div>",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5f515473433a5",
+            "label": "Icon Style",
+            "name": "custom_icon_style",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fe",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Line Icon": "Line Icon",
+                "Awesome Icon": "Awesome Icon"
+            },
+            "allow_null": 0,
+            "default_value": "Line Icon",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ea06a6330019",
+            "label": "Line Icon",
+            "name": "custom_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f515473433a5",
+                        "operator": "==",
+                        "value": "Line Icon"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "leverage-icon",
+                "id": ""
+            },
+            "choices": {
+                "user": "user",
+                "people": "people",
+                "user-female": "user-female",
+                "user-follow": "user-follow",
+                "user-following": "user-following",
+                "user-unfollow": "user-unfollow",
+                "login": "login",
+                "logout": "logout",
+                "emotsmile": "emotsmile",
+                "phone": "phone",
+                "call-end": "call-end",
+                "call-in": "call-in",
+                "call-out": "call-out",
+                "map": "map",
+                "location-pin": "location-pin",
+                "direction": "direction",
+                "directions": "directions",
+                "compass": "compass",
+                "layers": "layers",
+                "menu": "menu",
+                "list": "list",
+                "options-vertical": "options-vertical",
+                "options": "options",
+                "arrow-down": "arrow-down",
+                "arrow-left": "arrow-left",
+                "arrow-right": "arrow-right",
+                "arrow-up": "arrow-up",
+                "arrow-up-circle": "arrow-up-circle",
+                "arrow-left-circle": "arrow-left-circle",
+                "arrow-right-circle": "arrow-right-circle",
+                "arrow-down-circle": "arrow-down-circle",
+                "check": "check",
+                "clock": "clock",
+                "plus": "plus",
+                "minus": "minus",
+                "close": "close",
+                "event": "event",
+                "exclamation": "exclamation",
+                "organization": "organization",
+                "trophy": "trophy",
+                "screen-smartphone": "screen-smartphone",
+                "screen-desktop": "screen-desktop",
+                "plane": "plane",
+                "notebook": "notebook",
+                "mustache": "mustache",
+                "mouse": "mouse",
+                "magnet": "magnet",
+                "energy": "energy",
+                "disc": "disc",
+                "cursor": "cursor",
+                "cursor-move": "cursor-move",
+                "crop": "crop",
+                "chemistry": "chemistry",
+                "speedometer": "speedometer",
+                "shield": "shield",
+                "screen-tablet": "screen-tablet",
+                "magic-wand": "magic-wand",
+                "hourglass": "hourglass",
+                "graduation": "graduation",
+                "ghost": "ghost",
+                "game-controller": "game-controller",
+                "fire": "fire",
+                "eyeglass": "eyeglass",
+                "envelope-open": "envelope-open",
+                "envelope-letter": "envelope-letter",
+                "bell": "bell",
+                "badge": "badge",
+                "anchor": "anchor",
+                "wallet": "wallet",
+                "vector": "vector",
+                "speech": "speech",
+                "puzzle": "puzzle",
+                "printer": "printer",
+                "present": "present",
+                "playlist": "playlist",
+                "pin": "pin",
+                "picture": "picture",
+                "handbag": "handbag",
+                "globe-alt": "globe-alt",
+                "globe": "globe",
+                "folder-alt": "folder-alt",
+                "folder": "folder",
+                "film": "film",
+                "feed": "feed",
+                "drop": "drop",
+                "drawer": "drawer",
+                "docs": "docs",
+                "doc": "doc",
+                "diamond": "diamond",
+                "cup": "cup",
+                "calculator": "calculator",
+                "bubbles": "bubbles",
+                "briefcase": "briefcase",
+                "book-open": "book-open",
+                "basket-loaded": "basket-loaded",
+                "basket": "basket",
+                "bag": "bag",
+                "action-undo": "action-undo",
+                "action-redo": "action-redo",
+                "wrench": "wrench",
+                "umbrella": "umbrella",
+                "trash": "trash",
+                "tag": "tag",
+                "support": "support",
+                "frame": "frame",
+                "size-fullscreen": "size-fullscreen",
+                "size-actual": "size-actual",
+                "shuffle": "shuffle",
+                "share-alt": "share-alt",
+                "share": "share",
+                "rocket": "rocket",
+                "question": "question",
+                "pie-chart": "pie-chart",
+                "pencil": "pencil",
+                "note": "note",
+                "loop": "loop",
+                "home": "home",
+                "grid": "grid",
+                "graph": "graph",
+                "microphone": "microphone",
+                "music-tone-alt": "music-tone-alt",
+                "music-tone": "music-tone",
+                "earphones-alt": "earphones-alt",
+                "earphones": "earphones",
+                "equalizer": "equalizer",
+                "like": "like",
+                "dislike": "dislike",
+                "control-start": "control-start",
+                "control-rewind": "control-rewind",
+                "control-play": "control-play",
+                "control-pause": "control-pause",
+                "control-forward": "control-forward",
+                "control-end": "control-end",
+                "volume-1": "volume-1",
+                "volume-2": "volume-2",
+                "volume-off": "volume-off",
+                "calendar": "calendar",
+                "bulb": "bulb",
+                "chart": "chart",
+                "ban": "ban",
+                "bubble": "bubble",
+                "camrecorder": "camrecorder",
+                "camera": "camera",
+                "cloud-download": "cloud-download",
+                "cloud-upload": "cloud-upload",
+                "envelope": "envelope",
+                "eye": "eye",
+                "flag": "flag",
+                "heart": "heart",
+                "info": "info",
+                "key": "key",
+                "link": "link",
+                "lock": "lock",
+                "lock-open": "lock-open",
+                "magnifier": "magnifier",
+                "magnifier-add": "magnifier-add",
+                "magnifier-remove": "magnifier-remove",
+                "paper-clip": "paper-clip",
+                "paper-plane": "paper-plane",
+                "power": "power",
+                "refresh": "refresh",
+                "reload": "reload",
+                "settings": "settings",
+                "star": "star",
+                "symbol-female": "symbol-female",
+                "symbol-male": "symbol-male",
+                "target": "target",
+                "credit-card": "credit-card",
+                "paypal": "paypal",
+                "social-tumblr": "social-tumblr",
+                "social-twitter": "social-twitter",
+                "social-facebook": "social-facebook",
+                "social-instagram": "social-instagram",
+                "social-linkedin": "social-linkedin",
+                "social-pinterest": "social-pinterest",
+                "social-github": "social-github",
+                "social-google": "social-google",
+                "social-reddit": "social-reddit",
+                "social-skype": "social-skype",
+                "social-dribbble": "social-dribbble",
+                "social-behance": "social-behance",
+                "social-foursqare": "social-foursqare",
+                "social-soundcloud": "social-soundcloud",
+                "social-spotify": "social-spotify",
+                "social-stumbleupon": "social-stumbleupon",
+                "social-youtube": "social-youtube",
+                "social-dropbox": "social-dropbox",
+                "social-vkontakte": "social-vkontakte",
+                "social-steam": "social-steam"
+            },
+            "default_value": "rocket",
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 1,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f5144ce2e60d",
+            "label": "Awesome Icon",
+            "name": "custom_icon_fa",
+            "type": "font-awesome",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f515473433a5",
+                        "operator": "==",
+                        "value": "Awesome Icon"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "icon_sets": [
+                "fas",
+                "far",
+                "fab"
+            ],
+            "custom_icon_set": "",
+            "default_label": "<i class=\"fab\"><\/i> accusoft",
+            "default_value": "",
+            "save_format": "class",
+            "allow_null": 1,
+            "show_preview": 0,
+            "enqueue_fa": 1,
+            "fa_live_preview": "",
+            "choices": []
+        },
+        {
+            "key": "field_5ea06a8e3001a",
+            "label": "Target",
+            "name": "custom_target",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fe",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Anchor Link": "Anchor Link",
+                "External Link": "External Link",
+                "Inner Page": "Inner Page",
+                "Inner Post": "Inner Post"
+            },
+            "default_value": "Inner Page",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea06aad3001b",
+            "label": "URL",
+            "name": "custom_url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5f3ff2b2b74fe",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#signin",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea3057a1d838",
+            "label": "Page",
+            "name": "custom_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "Inner Page"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ea3059b1d839",
+            "label": "Post",
+            "name": "custom_post",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "Inner Post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-header"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1612205446
+}

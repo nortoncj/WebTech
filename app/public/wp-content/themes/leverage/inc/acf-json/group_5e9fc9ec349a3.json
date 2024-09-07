@@ -1,0 +1,565 @@
+{
+    "key": "group_5e9fc9ec349a3",
+    "title": "Design & Color",
+    "fields": [
+        {
+            "key": "field_5ed2acae2f50f",
+            "label": "Theme",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea0aedcff419",
+            "label": "Theme Color",
+            "name": "theme_color",
+            "type": "button_group",
+            "instructions": "Choose one of the Pre-made Color or Custom Color to create your own combination. The options set here are applied to the Heading Font, Buttons and Dividers of the sections.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-theme-color",
+                "id": ""
+            },
+            "choices": {
+                "css\/theme-orange.css": "Orange",
+                "css\/theme-pink.css": "Pink",
+                "css\/theme-indigo.css": "Indigo",
+                "css\/theme-blue.css": "Blue",
+                "css\/theme-light-blue.css": "Light Blue",
+                "css\/theme-white-blue.css": "White Blue",
+                "css\/theme-green.css": "Green",
+                "css\/theme-light-green.css": "Light Green",
+                "css\/theme-yellow.css": "Yellow",
+                "css\/theme-white.css": "White",
+                "css\/theme-black.css": "Black",
+                "custom-color": "Custom Color"
+            },
+            "allow_null": 0,
+            "default_value": "css\/theme-pink.css",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ea0b1898a98f",
+            "label": "Primary Color",
+            "name": "primary_color",
+            "type": "color_picker",
+            "instructions": "Choose a color that matches the secondary color to form a gradient.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea0aedcff419",
+                        "operator": "==",
+                        "value": "custom-color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5eaa1e14b03d3",
+            "label": "Secondary Color",
+            "name": "secondary_color",
+            "type": "color_picker",
+            "instructions": "Choose a color that matches the primary color to form a gradient.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea0aedcff419",
+                        "operator": "==",
+                        "value": "custom-color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5ed2ab1684bf7",
+            "label": "Theme Mode",
+            "name": "theme_mode",
+            "type": "button_group",
+            "instructions": "Theme Mode is applied to the Search Section, Dropdown Menu and Responsive Menu elements.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Light Mode",
+                "dark": "Dark Mode"
+            },
+            "allow_null": 0,
+            "default_value": "Light Mode",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ed2b1e2b5afc",
+            "label": "Button Mode",
+            "name": "button_mode",
+            "type": "button_group",
+            "instructions": "Here you can choose the style of the Primary Button.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Filled",
+                "outlined": "Outlined"
+            },
+            "allow_null": 0,
+            "default_value": "Filled",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5edaf01bcc6b6",
+            "label": "Body",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f6387ea9310b",
+            "label": "Enable Dark Mode",
+            "name": "body_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of the Content Section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5edaece7cc6b3",
+            "label": "Background Color",
+            "name": "body_bg_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the Content and Sidebar.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#F5F5F5"
+        },
+        {
+            "key": "field_5edaed1fcc6b4",
+            "label": "Light Text Color",
+            "name": "light_text_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to all Paragraphs that are in Light Mode sections.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#6f6f6f"
+        },
+        {
+            "key": "field_5edaefd7cc6b5",
+            "label": "Dark Text Color",
+            "name": "dark_text_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to all Paragraphs that are in Dark Mode sections.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#8e8e8e"
+        },
+        {
+            "key": "field_5ed2ace12f510",
+            "label": "Navbar",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eaa3f85a1347",
+            "label": "Background Color",
+            "name": "header_bg_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the Navbar when the page is scrolled.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#111111"
+        },
+        {
+            "key": "field_5eaa4024a1348",
+            "label": "Text Item Color",
+            "name": "nav_item_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the text items in the Navbar when the page is scrolled.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#f5f5f5"
+        },
+        {
+            "key": "field_5f4ed4179e5f2",
+            "label": "Top: Text Item Color",
+            "name": "top_nav_item_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the text items in the Navbar when the page is at the top.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#f5f5f5"
+        },
+        {
+            "key": "field_5ed2acf32f512",
+            "label": "Hero Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ecc64409d7ab",
+            "label": "Enable Dark Mode",
+            "name": "enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of the Hero Section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eb3215787f31",
+            "label": "Background Color",
+            "name": "hero_bg_color",
+            "type": "color_picker",
+            "instructions": "This color will be applied to the Banner, also known as the Hero Section.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#111111"
+        },
+        {
+            "key": "field_5f1485397f826",
+            "label": "Background Image",
+            "name": "hero_bg_image",
+            "type": "group",
+            "instructions": "Here you can assign Background Image to the Hero Section.<br\/><br\/>\r\nControl the Opacity between the Background Color and Image. This is useful so that the image and the texts have a better visual contrast.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f399f5968e3a",
+                    "label": "Opacity Control",
+                    "name": "opacity_control",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 0,
+                    "min": 0,
+                    "max": 90,
+                    "step": 10,
+                    "prepend": "",
+                    "append": "%"
+                },
+                {
+                    "key": "field_5f1485d27f827",
+                    "label": "Posts Page",
+                    "name": "posts_page",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "img-min",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "jpg, jpeg, png, gif"
+                },
+                {
+                    "key": "field_5f14866d7f828",
+                    "label": "Taxonomy",
+                    "name": "taxonomy",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "img-min",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "jpg, jpeg, png, gif"
+                },
+                {
+                    "key": "field_5f14867d7f829",
+                    "label": "Search Results",
+                    "name": "search_results",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "img-min",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "jpg, jpeg, png, gif"
+                },
+                {
+                    "key": "field_5f14868c7f82a",
+                    "label": "404 Page",
+                    "name": "404_page",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "img-min",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "jpg, jpeg, png, gif"
+                }
+            ]
+        },
+        {
+            "key": "field_5f1089c79e3fe",
+            "label": "Title Color",
+            "name": "hero_title_color",
+            "type": "group",
+            "instructions": "Here you can define different colors from the Theme Color for the Hero Section Title.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f108a0f9e400",
+                    "label": "Primary Color",
+                    "name": "primary_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5f108a129e401",
+                    "label": "Secondary Color",
+                    "name": "secondary_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5f108a009e3ff",
+            "label": "Description Color",
+            "name": "hero_description_color",
+            "type": "group",
+            "instructions": "This color will be applied to the Hero Section Subtitle.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f108add9e402",
+                    "label": "Color",
+                    "name": "color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-design"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1600371640
+}
